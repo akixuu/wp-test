@@ -1,0 +1,29 @@
+2023-06-17T06:15:24.250142Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.33) initializing of server in progress as process 3583
+2023-06-17T06:15:24.255883Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-06-17T06:15:25.080465Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-06-17T06:15:28.067290Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2023-06-17T06:15:31.860770Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.33) starting as process 3625
+2023-06-17T06:15:31.876410Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-06-17T06:15:32.321364Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-06-17T06:15:33.063065Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-06-17T06:15:33.063092Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-06-17T06:15:33.063925Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-06-17T06:15:33.079818Z 7 [System] [MY-013172] [Server] Received SHUTDOWN from user boot. Shutting down mysqld (Version: 8.0.33).
+2023-06-17T06:15:33.080666Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-06-17T06:15:34.588064Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.33)  MySQL Community Server - GPL.
+2023-06-17T06:15:35.254441Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.33) starting as process 3754
+2023-06-17T06:15:35.259545Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-06-17T06:15:35.375006Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-06-17T06:15:35.503792Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-06-17T06:15:35.503831Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-06-17T06:15:35.520799Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-06-17T06:15:35.520844Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-06-17T06:31:34.860917Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.33).
+2023-06-17T06:31:35.969223Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.33)  MySQL Community Server - GPL.
+2023-06-17T06:39:20.953179Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.33) starting as process 516
+2023-06-17T06:39:21.011995Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-06-17T06:39:21.953826Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-06-17T06:39:22.601057Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-06-17T06:39:22.601089Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-06-17T06:39:22.627137Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-06-17T06:39:22.627155Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.33'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.

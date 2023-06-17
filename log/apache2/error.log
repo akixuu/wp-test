@@ -1,0 +1,29 @@
+[Sat Jun 17 06:05:50.174643 2023] [mpm_event:notice] [pid 1692:tid 139959237348672] AH00489: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 06:05:50.174709 2023] [core:notice] [pid 1692:tid 139959237348672] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 06:31:34.946251 2023] [mpm_event:notice] [pid 1692:tid 139959237348672] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 06:39:19.721511 2023] [mpm_event:notice] [pid 522:tid 140683572849984] AH00489: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 06:39:19.730071 2023] [core:notice] [pid 522:tid 140683572849984] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:02:55.606631 2023] [mpm_event:notice] [pid 522:tid 140683572849984] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:02:55.643855 2023] [mpm_event:notice] [pid 813:tid 140358302620992] AH00489: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:02:55.643925 2023] [core:notice] [pid 813:tid 140358302620992] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:06:08.127476 2023] [mpm_event:notice] [pid 813:tid 140358302620992] AH00492: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:06:11.485834 2023] [core:warn] [pid 813:tid 140358302620992] AH00045: child process 815 still did not exit, sending a SIGTERM
+[Sat Jun 17 07:06:13.487944 2023] [core:warn] [pid 813:tid 140358302620992] AH00045: child process 815 still did not exit, sending a SIGTERM
+[Sat Jun 17 07:06:15.490036 2023] [core:warn] [pid 813:tid 140358302620992] AH00045: child process 815 still did not exit, sending a SIGTERM
+[Sat Jun 17 07:06:17.492124 2023] [core:error] [pid 813:tid 140358302620992] AH00046: child process 815 still did not exit, sending a SIGKILL
+[Sat Jun 17 07:06:18.520289 2023] [mpm_prefork:notice] [pid 7411] AH00163: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:06:18.520363 2023] [core:notice] [pid 7411] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:06:18.621069 2023] [mpm_prefork:notice] [pid 7411] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:06:18.680304 2023] [mpm_prefork:notice] [pid 7452] AH00163: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:06:18.680339 2023] [core:notice] [pid 7452] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:06:47.060283 2023] [mpm_prefork:notice] [pid 7452] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:06:47.118797 2023] [mpm_prefork:notice] [pid 7579] AH00163: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:06:47.118838 2023] [core:notice] [pid 7579] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:07:46.185163 2023] [mpm_prefork:notice] [pid 7579] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:07:46.247301 2023] [mpm_prefork:notice] [pid 8362] AH00163: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:07:46.247336 2023] [core:notice] [pid 8362] AH00094: Command line: '/usr/sbin/apache2'
+sh: 1: /usr/sbin/sendmail: not found
+[Sat Jun 17 07:11:37.237344 2023] [mpm_prefork:notice] [pid 8362] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Jun 17 07:11:37.297633 2023] [mpm_prefork:notice] [pid 8488] AH00163: Apache/2.4.56 (Debian) configured -- resuming normal operations
+[Sat Jun 17 07:11:37.297667 2023] [core:notice] [pid 8488] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jun 17 07:20:29.410694 2023] [php7:error] [pid 8493] [client 100.24.209.32:51462] script '/var/www/html/wordpress/gate.php' not found or unable to stat

@@ -1,0 +1,1489 @@
+Jun 17 05:51:01 localhost kernel: [    0.000000] Linux version 5.10.0-23-amd64 (debian-kernel@lists.debian.org) (gcc-10 (Debian 10.2.1-6) 10.2.1 20210110, GNU ld (GNU Binutils for Debian) 2.35.2) #1 SMP Debian 5.10.179-1 (2023-05-12)
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating group systemd-timesync with gid 999.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating user systemd-timesync (systemd Time Synchronization) with uid 999 and gid 999.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating group systemd-coredump with gid 998.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating user systemd-coredump (systemd Core Dumper) with uid 998 and gid 998.
+Jun 17 05:51:01 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun 17 05:51:01 localhost systemd[1]: Finished Create System Users.
+Jun 17 05:51:01 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+Jun 17 05:51:01 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Local File Systems (Pre).
+Jun 17 05:51:01 localhost systemd[1]: Reached target Local File Systems.
+Jun 17 05:51:01 localhost systemd[1]: Starting Load AppArmor profiles...
+Jun 17 05:51:01 localhost systemd[1]: Starting Set console font and keymap...
+Jun 17 05:51:01 localhost systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jun 17 05:51:01 localhost systemd[1]: Starting Commit a transient machine-id on disk...
+Jun 17 05:51:01 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Jun 17 05:51:01 localhost systemd[1]: Finished Set console font and keymap.
+Jun 17 05:51:01 localhost systemd[1]: Finished Flush Journal to Persistent Storage.
+Jun 17 05:51:01 localhost systemd[1]: Starting Create Volatile Files and Directories...
+Jun 17 05:51:01 localhost systemd[1]: etc-machine\x2did.mount: Succeeded.
+Jun 17 05:51:01 localhost systemd[1]: Finished Commit a transient machine-id on disk.
+Jun 17 05:51:01 localhost apparmor.systemd[237]: Restarting AppArmor
+Jun 17 05:51:01 localhost apparmor.systemd[237]: Reloading AppArmor profiles
+Jun 17 05:51:01 localhost systemd-udevd[243]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jun 17 05:51:01 localhost systemd[1]: Finished Create Volatile Files and Directories.
+Jun 17 05:51:01 localhost systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 17 05:51:01 localhost systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Jun 17 05:51:01 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+Jun 17 05:51:01 localhost systemd-udevd[259]: Using default interface naming scheme 'v247'.
+Jun 17 05:51:01 localhost systemd[1]: Found device /dev/ttyS0.
+Jun 17 05:51:01 localhost systemd[1]: Found device Virtio network device.
+Jun 17 05:51:01 localhost systemd[1]: Found device QEMU_HARDDISK.
+Jun 17 05:51:01 localhost systemd[1]: Activating swap /dev/sdb...
+Jun 17 05:51:01 localhost systemd[1]: Finished Load AppArmor profiles.
+Jun 17 05:51:01 localhost systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+Jun 17 05:51:01 localhost systemd[1]: Started ifup for eth0.
+Jun 17 05:51:01 localhost systemd[1]: Activated swap /dev/sdb.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Swap.
+Jun 17 05:51:01 localhost systemd[1]: Reached target System Initialization.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun 17 05:51:01 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Sockets.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Basic System.
+Jun 17 05:51:01 localhost systemd[1]: Started Regular background program processing daemon.
+Jun 17 05:51:01 localhost systemd[1]: Started D-Bus System Message Bus.
+Jun 17 05:51:01 localhost systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Jun 17 05:51:01 localhost systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jun 17 05:51:01 localhost systemd[1]: Starting System Logging Service...
+Jun 17 05:51:01 localhost systemd[1]: Starting Resets System Activity Logs...
+Jun 17 05:51:01 localhost systemd[1]: Starting User Login Management...
+Jun 17 05:51:01 localhost haveged[350]: haveged: command socket is listening at fd 3
+Jun 17 05:51:01 localhost rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Jun 17 05:51:01 localhost systemd[1]: Started System Logging Service.
+Jun 17 05:51:01 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="420" x-info="https://www.rsyslog.com"] start
+Jun 17 05:51:01 localhost cron[414]: (CRON) INFO (pidfile fd = 3)
+Jun 17 05:51:01 localhost cron[414]: (CRON) INFO (Running @reboot jobs)
+Jun 17 05:51:01 localhost kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0 scsi_mod.scan=sync
+Jun 17 05:51:01 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jun 17 05:51:01 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jun 17 05:51:01 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jun 17 05:51:01 localhost kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jun 17 05:51:01 localhost kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-provided physical RAM map:
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffd9fff] usable
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffda000-0x000000007fffffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 17 05:51:01 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000017fffffff] usable
+Jun 17 05:51:01 localhost kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 17 05:51:01 localhost kernel: [    0.000000] SMBIOS 2.8 present.
+Jun 17 05:51:01 localhost kernel: [    0.000000] DMI: Linode Compute Instance/Standard PC (Q35 + ICH9, 2009), BIOS Not Specified 
+Jun 17 05:51:01 localhost kernel: [    0.000000] Hypervisor detected: KVM
+Jun 17 05:51:01 localhost kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 17 05:51:01 localhost kernel: [    0.000000] kvm-clock: cpu 0, msr 10f001001, primary cpu clock
+Jun 17 05:51:01 localhost kernel: [    0.000000] kvm-clock: using sched offset of 8162866806 cycles
+Jun 17 05:51:01 localhost kernel: [    0.000020] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jun 17 05:51:01 localhost kernel: [    0.000023] tsc: Detected 2899.998 MHz processor
+Jun 17 05:51:01 localhost kernel: [    0.001046] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 17 05:51:01 localhost kernel: [    0.001049] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 17 05:51:01 localhost kernel: [    0.001054] last_pfn = 0x180000 max_arch_pfn = 0x400000000
+Jun 17 05:51:01 localhost kernel: [    0.001085] MTRR default type: write-back
+Jun 17 05:51:01 localhost kernel: [    0.001086] MTRR fixed ranges enabled:
+Jun 17 05:51:01 localhost kernel: [    0.001087]   00000-9FFFF write-back
+Jun 17 05:51:01 localhost kernel: [    0.001088]   A0000-BFFFF uncachable
+Jun 17 05:51:01 localhost kernel: [    0.001088]   C0000-FFFFF write-protect
+Jun 17 05:51:01 localhost kernel: [    0.001089] MTRR variable ranges enabled:
+Jun 17 05:51:01 localhost kernel: [    0.001090]   0 base 0000C0000000 mask FFFFC0000000 uncachable
+Jun 17 05:51:01 localhost kernel: [    0.001091]   1 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001092]   2 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001092]   3 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001093]   4 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001093]   5 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001094]   6 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001094]   7 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001106] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jun 17 05:51:01 localhost kernel: [    0.001116] last_pfn = 0x7ffda max_arch_pfn = 0x400000000
+Jun 17 05:51:01 localhost kernel: [    0.003792] found SMP MP-table at [mem 0x000f5b90-0x000f5b9f]
+Jun 17 05:51:01 localhost kernel: [    0.004018] Using GB pages for direct mapping
+Jun 17 05:51:01 localhost kernel: [    0.004211] RAMDISK: [mem 0x34897000-0x36442fff]
+Jun 17 05:51:01 localhost kernel: [    0.004217] ACPI: Early table checksum verification disabled
+Jun 17 05:51:01 localhost kernel: [    0.004221] ACPI: RSDP 0x00000000000F5960 000014 (v00 BOCHS )
+Jun 17 05:51:01 localhost kernel: [    0.004229] ACPI: RSDT 0x000000007FFE2303 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004234] ACPI: FACP 0x000000007FFE20F3 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004239] ACPI: DSDT 0x000000007FFE0040 0020B3 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004242] ACPI: FACS 0x000000007FFE0000 000040
+Jun 17 05:51:01 localhost kernel: [    0.004244] ACPI: APIC 0x000000007FFE21E7 000080 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004247] ACPI: HPET 0x000000007FFE2267 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004250] ACPI: MCFG 0x000000007FFE229F 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004253] ACPI: WAET 0x000000007FFE22DB 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 05:51:01 localhost kernel: [    0.004256] ACPI: Reserving FACP table memory at [mem 0x7ffe20f3-0x7ffe21e6]
+Jun 17 05:51:01 localhost kernel: [    0.004257] ACPI: Reserving DSDT table memory at [mem 0x7ffe0040-0x7ffe20f2]
+Jun 17 05:51:01 localhost kernel: [    0.004258] ACPI: Reserving FACS table memory at [mem 0x7ffe0000-0x7ffe003f]
+Jun 17 05:51:01 localhost kernel: [    0.004259] ACPI: Reserving APIC table memory at [mem 0x7ffe21e7-0x7ffe2266]
+Jun 17 05:51:01 localhost kernel: [    0.004260] ACPI: Reserving HPET table memory at [mem 0x7ffe2267-0x7ffe229e]
+Jun 17 05:51:01 localhost kernel: [    0.004261] ACPI: Reserving MCFG table memory at [mem 0x7ffe229f-0x7ffe22da]
+Jun 17 05:51:01 localhost kernel: [    0.004261] ACPI: Reserving WAET table memory at [mem 0x7ffe22db-0x7ffe2302]
+Jun 17 05:51:01 localhost kernel: [    0.004281] ACPI: Local APIC address 0xfee00000
+Jun 17 05:51:01 localhost kernel: [    0.004542] No NUMA configuration found
+Jun 17 05:51:01 localhost kernel: [    0.004543] Faking a node at [mem 0x0000000000000000-0x000000017fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.004552] NODE_DATA(0) allocated [mem 0x17ffd6000-0x17fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010651] Zone ranges:
+Jun 17 05:51:01 localhost kernel: [    0.010653]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010655]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010657]   Normal   [mem 0x0000000100000000-0x000000017fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010658]   Device   empty
+Jun 17 05:51:01 localhost kernel: [    0.010660] Movable zone start for each node
+Jun 17 05:51:01 localhost kernel: [    0.010663] Early memory node ranges
+Jun 17 05:51:01 localhost kernel: [    0.010664]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jun 17 05:51:01 localhost kernel: [    0.010665]   node   0: [mem 0x0000000000100000-0x000000007ffd9fff]
+Jun 17 05:51:01 localhost kernel: [    0.010666]   node   0: [mem 0x0000000100000000-0x000000017fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010668] Initmem setup node 0 [mem 0x0000000000001000-0x000000017fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.010669] On node 0 totalpages: 1048440
+Jun 17 05:51:01 localhost kernel: [    0.010670]   DMA zone: 64 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010671]   DMA zone: 21 pages reserved
+Jun 17 05:51:01 localhost kernel: [    0.010672]   DMA zone: 3998 pages, LIFO batch:0
+Jun 17 05:51:01 localhost kernel: [    0.010673]   DMA32 zone: 8128 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010673]   DMA32 zone: 520154 pages, LIFO batch:63
+Jun 17 05:51:01 localhost kernel: [    0.010674]   Normal zone: 8192 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010675]   Normal zone: 524288 pages, LIFO batch:63
+Jun 17 05:51:01 localhost kernel: [    0.016695] On node 0, zone DMA: 1 pages in unavailable ranges
+Jun 17 05:51:01 localhost kernel: [    0.016729] On node 0, zone DMA: 97 pages in unavailable ranges
+Jun 17 05:51:01 localhost kernel: [    0.112678] On node 0, zone Normal: 38 pages in unavailable ranges
+Jun 17 05:51:01 localhost kernel: [    0.113093] ACPI: PM-Timer IO Port: 0x608
+Jun 17 05:51:01 localhost kernel: [    0.113096] ACPI: Local APIC address 0xfee00000
+Jun 17 05:51:01 localhost kernel: [    0.113105] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 17 05:51:01 localhost kernel: [    0.113134] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 17 05:51:01 localhost kernel: [    0.113136] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 17 05:51:01 localhost kernel: [    0.113138] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 17 05:51:01 localhost kernel: [    0.113139] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 17 05:51:01 localhost kernel: [    0.113140] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 17 05:51:01 localhost kernel: [    0.113141] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 17 05:51:01 localhost kernel: [    0.113143] ACPI: IRQ0 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113143] ACPI: IRQ5 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113144] ACPI: IRQ9 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113145] ACPI: IRQ10 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113145] ACPI: IRQ11 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113147] Using ACPI (MADT) for SMP configuration information
+Jun 17 05:51:01 localhost kernel: [    0.113148] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jun 17 05:51:01 localhost kernel: [    0.113153] TSC deadline timer available
+Jun 17 05:51:01 localhost kernel: [    0.113156] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 17 05:51:01 localhost kernel: [    0.113166] kvm-guest: KVM setup pv remote TLB flush
+Jun 17 05:51:01 localhost kernel: [    0.113175] kvm-guest: setup PV sched yield
+Jun 17 05:51:01 localhost kernel: [    0.113188] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jun 17 05:51:01 localhost kernel: [    0.113190] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 17 05:51:01 localhost kernel: [    0.113191] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 17 05:51:01 localhost kernel: [    0.113192] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 17 05:51:01 localhost kernel: [    0.113193] PM: hibernation: Registered nosave memory: [mem 0x7ffda000-0x7fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.113194] PM: hibernation: Registered nosave memory: [mem 0x80000000-0xafffffff]
+Jun 17 05:51:01 localhost kernel: [    0.113195] PM: hibernation: Registered nosave memory: [mem 0xb0000000-0xbfffffff]
+Jun 17 05:51:01 localhost kernel: [    0.113196] PM: hibernation: Registered nosave memory: [mem 0xc0000000-0xfed1bfff]
+Jun 17 05:51:01 localhost kernel: [    0.113197] PM: hibernation: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+Jun 17 05:51:01 localhost kernel: [    0.113198] PM: hibernation: Registered nosave memory: [mem 0xfed20000-0xfeffbfff]
+Jun 17 05:51:01 localhost kernel: [    0.113198] PM: hibernation: Registered nosave memory: [mem 0xfeffc000-0xfeffffff]
+Jun 17 05:51:01 localhost kernel: [    0.113199] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xfffbffff]
+Jun 17 05:51:01 localhost kernel: [    0.113200] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Jun 17 05:51:01 localhost kernel: [    0.113202] [mem 0xc0000000-0xfed1bfff] available for PCI devices
+Jun 17 05:51:01 localhost kernel: [    0.113203] Booting paravirtualized kernel on KVM
+Jun 17 05:51:01 localhost kernel: [    0.113206] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jun 17 05:51:01 localhost kernel: [    0.116902] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Jun 17 05:51:01 localhost kernel: [    0.122910] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u1048576
+Jun 17 05:51:01 localhost kernel: [    0.122916] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Jun 17 05:51:01 localhost kernel: [    0.122918] pcpu-alloc: [0] 0 1 
+Jun 17 05:51:01 localhost kernel: [    0.122945] kvm-guest: KVM setup async PF for cpu 0
+Jun 17 05:51:01 localhost kernel: [    0.122953] kvm-guest: stealtime: cpu 0, msr 17bc35080
+Jun 17 05:51:01 localhost kernel: [    0.122957] kvm-guest: PV spinlocks enabled
+Jun 17 05:51:01 localhost kernel: [    0.122959] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.122968] Built 1 zonelists, mobility grouping on.  Total pages: 1032035
+Jun 17 05:51:01 localhost kernel: [    0.122969] Policy zone: Normal
+Jun 17 05:51:01 localhost kernel: [    0.122971] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0 scsi_mod.scan=sync
+Jun 17 05:51:01 localhost kernel: [    0.134327] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.140313] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.140346] mem auto-init: stack:off, heap alloc:on, heap free:off
+Jun 17 05:51:01 localhost kernel: [    0.267666] Memory: 2133464K/4193760K available (12295K kernel code, 2536K rwdata, 7568K rodata, 2668K init, 17720K bss, 215968K reserved, 0K cma-reserved)
+Jun 17 05:51:01 localhost kernel: [    0.268201] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jun 17 05:51:01 localhost kernel: [    0.268228] ftrace: allocating 36577 entries in 143 pages
+Jun 17 05:51:01 localhost kernel: [    0.282838] ftrace: allocated 143 pages with 5 groups
+Jun 17 05:51:01 localhost kernel: [    0.288910] rcu: Hierarchical RCU implementation.
+Jun 17 05:51:01 localhost kernel: [    0.288913] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Jun 17 05:51:01 localhost kernel: [    0.288915] 	Rude variant of Tasks RCU enabled.
+Jun 17 05:51:01 localhost kernel: [    0.288915] 	Tracing variant of Tasks RCU enabled.
+Jun 17 05:51:01 localhost kernel: [    0.288917] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jun 17 05:51:01 localhost kernel: [    0.288918] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jun 17 05:51:01 localhost kernel: [    0.292808] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Jun 17 05:51:01 localhost kernel: [    0.293020] random: crng init done
+Jun 17 05:51:01 localhost kernel: [    0.305764] Console: colour VGA+ 80x25
+Jun 17 05:51:01 localhost kernel: [    0.401730] printk: console [ttyS0] enabled
+Jun 17 05:51:01 localhost kernel: [    0.402241] ACPI: Core revision 20200925
+Jun 17 05:51:01 localhost kernel: [    0.402879] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+Jun 17 05:51:01 localhost kernel: [    0.404089] APIC: Switch to symmetric I/O mode setup
+Jun 17 05:51:01 localhost kernel: [    0.404919] x2apic enabled
+Jun 17 05:51:01 localhost kernel: [    0.405390] Switched APIC routing to physical x2apic.
+Jun 17 05:51:01 localhost kernel: [    0.405989] kvm-guest: setup PV IPIs
+Jun 17 05:51:01 localhost kernel: [    0.407249] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 17 05:51:01 localhost kernel: [    0.407978] tsc: Marking TSC unstable due to TSCs unsynchronized
+Jun 17 05:51:01 localhost kernel: [    0.408778] Calibrating delay loop (skipped) preset value.. 5799.99 BogoMIPS (lpj=11599992)
+Jun 17 05:51:01 localhost kernel: [    0.409781] pid_max: default: 32768 minimum: 301
+Jun 17 05:51:01 localhost kernel: [    0.410345] LSM: Security Framework initializing
+Jun 17 05:51:01 localhost kernel: [    0.410944] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jun 17 05:51:01 localhost kernel: [    0.411811] AppArmor: AppArmor initialized
+Jun 17 05:51:01 localhost kernel: [    0.412777] TOMOYO Linux initialized
+Jun 17 05:51:01 localhost kernel: [    0.413303] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.414282] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.415515] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Jun 17 05:51:01 localhost kernel: [    0.416360] Last level iTLB entries: 4KB 512, 2MB 255, 4MB 127
+Jun 17 05:51:01 localhost kernel: [    0.416778] Last level dTLB entries: 4KB 512, 2MB 255, 4MB 127, 1GB 0
+Jun 17 05:51:01 localhost kernel: [    0.417559] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jun 17 05:51:01 localhost kernel: [    0.418605] Spectre V2 : Mitigation: Retpolines
+Jun 17 05:51:01 localhost kernel: [    0.419202] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jun 17 05:51:01 localhost kernel: [    0.420271] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Jun 17 05:51:01 localhost kernel: [    0.420774] Spectre V2 : Enabling Speculation Barrier for firmware calls
+Jun 17 05:51:01 localhost kernel: [    0.420776] RETBleed: Mitigation: untrained return thunk
+Jun 17 05:51:01 localhost kernel: [    0.421460] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jun 17 05:51:01 localhost kernel: [    0.422516] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Jun 17 05:51:01 localhost kernel: [    0.430387] Freeing SMP alternatives memory: 32K
+Jun 17 05:51:01 localhost kernel: [    0.432362] smpboot: CPU0: AMD EPYC 7542 32-Core Processor (family: 0x17, model: 0x31, stepping: 0x0)
+Jun 17 05:51:01 localhost kernel: [    0.432875] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+Jun 17 05:51:01 localhost kernel: [    0.433621] ... version:                0
+Jun 17 05:51:01 localhost kernel: [    0.434114] ... bit width:              48
+Jun 17 05:51:01 localhost kernel: [    0.434585] ... generic registers:      6
+Jun 17 05:51:01 localhost kernel: [    0.435028] ... value mask:             0000ffffffffffff
+Jun 17 05:51:01 localhost kernel: [    0.435672] ... max period:             00007fffffffffff
+Jun 17 05:51:01 localhost kernel: [    0.436330] ... fixed-purpose events:   0
+Jun 17 05:51:01 localhost kernel: [    0.436778] ... event mask:             000000000000003f
+Jun 17 05:51:01 localhost kernel: [    0.437542] rcu: Hierarchical SRCU implementation.
+Jun 17 05:51:01 localhost kernel: [    0.438441] smp: Bringing up secondary CPUs ...
+Jun 17 05:51:01 localhost kernel: [    0.439091] x86: Booting SMP configuration:
+Jun 17 05:51:01 localhost kernel: [    0.439606] .... node  #0, CPUs:      #1
+Jun 17 05:51:01 localhost kernel: [    0.111773] kvm-clock: cpu 1, msr 10f001041, secondary cpu clock
+Jun 17 05:51:01 localhost kernel: [    0.440622] kvm-guest: KVM setup async PF for cpu 1
+Jun 17 05:51:01 localhost kernel: [    0.440622] kvm-guest: stealtime: cpu 1, msr 17bd35080
+Jun 17 05:51:01 localhost kernel: [    0.440789] smp: Brought up 1 node, 2 CPUs
+Jun 17 05:51:01 localhost kernel: [    0.441298] smpboot: Max logical packages: 1
+Jun 17 05:51:01 localhost kernel: [    0.441806] smpboot: Total of 2 processors activated (11599.99 BogoMIPS)
+Jun 17 05:51:01 localhost kernel: [    0.473080] node 0 deferred pages initialised in 32ms
+Jun 17 05:51:01 localhost kernel: [    0.473501] devtmpfs: initialized
+Jun 17 05:51:01 localhost kernel: [    0.473501] x86/mm: Memory block size: 128MB
+Jun 17 05:51:01 localhost kernel: [    0.474099] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jun 17 05:51:01 localhost kernel: [    0.474099] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.476780] pinctrl core: initialized pinctrl subsystem
+Jun 17 05:51:01 localhost kernel: [    0.476780] NET: Registered protocol family 16
+Jun 17 05:51:01 localhost kernel: [    0.476780] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Jun 17 05:51:01 localhost kernel: [    0.476780] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Jun 17 05:51:01 localhost kernel: [    0.481036] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Jun 17 05:51:01 localhost kernel: [    0.481959] audit: initializing netlink subsys (disabled)
+Jun 17 05:51:01 localhost kernel: [    0.482658] audit: type=2000 audit(1686981058.786:1): state=initialized audit_enabled=0 res=1
+Jun 17 05:51:01 localhost kernel: [    0.482658] thermal_sys: Registered thermal governor 'fair_share'
+Jun 17 05:51:01 localhost kernel: [    0.482658] thermal_sys: Registered thermal governor 'bang_bang'
+Jun 17 05:51:01 localhost kernel: [    0.482658] thermal_sys: Registered thermal governor 'step_wise'
+Jun 17 05:51:01 localhost kernel: [    0.484778] thermal_sys: Registered thermal governor 'user_space'
+Jun 17 05:51:01 localhost kernel: [    0.485463] thermal_sys: Registered thermal governor 'power_allocator'
+Jun 17 05:51:01 localhost kernel: [    0.486188] cpuidle: using governor ladder
+Jun 17 05:51:01 localhost kernel: [    0.486188] cpuidle: using governor menu
+Jun 17 05:51:01 localhost kernel: [    0.488829] ACPI: bus type PCI registered
+Jun 17 05:51:01 localhost kernel: [    0.488829] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 17 05:51:01 localhost kernel: [    0.489638] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xb0000000-0xbfffffff] (base 0xb0000000)
+Jun 17 05:51:01 localhost kernel: [    0.490713] PCI: MMCONFIG at [mem 0xb0000000-0xbfffffff] reserved in E820
+Jun 17 05:51:01 localhost kernel: [    0.491512] PCI: Using configuration type 1 for base access
+Jun 17 05:51:01 localhost kernel: [    0.492838] Kprobes globally optimized
+Jun 17 05:51:01 localhost kernel: [    0.493299] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Jun 17 05:51:01 localhost kernel: [    0.493573] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jun 17 05:51:01 localhost kernel: [    0.590350] ACPI: Added _OSI(Module Device)
+Jun 17 05:51:01 localhost kernel: [    0.590350] ACPI: Added _OSI(Processor Device)
+Jun 17 05:51:01 localhost kernel: [    0.592782] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 17 05:51:01 localhost kernel: [    0.593338] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 17 05:51:01 localhost kernel: [    0.593988] ACPI: Added _OSI(Linux-Dell-Video)
+Jun 17 05:51:01 localhost kernel: [    0.594528] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jun 17 05:51:01 localhost kernel: [    0.595125] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jun 17 05:51:01 localhost kernel: [    0.596608] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Jun 17 05:51:01 localhost kernel: [    0.597979] ACPI: Interpreter enabled
+Jun 17 05:51:01 localhost kernel: [    0.598421] ACPI: (supports S0 S3 S4 S5)
+Jun 17 05:51:01 localhost kernel: [    0.598913] ACPI: Using IOAPIC for interrupt routing
+Jun 17 05:51:01 localhost kernel: [    0.599496] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 17 05:51:01 localhost kernel: [    0.600590] ACPI: Enabled 2 GPEs in block 00 to 3F
+Jun 17 05:51:01 localhost kernel: [    0.602119] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 17 05:51:01 localhost kernel: [    0.602873] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jun 17 05:51:01 localhost kernel: [    0.603989] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug LTR]
+Jun 17 05:51:01 localhost kernel: [    0.604824] acpi PNP0A08:00: _OSC: OS now controls [SHPCHotplug PME AER PCIeCapability]
+Jun 17 05:51:01 localhost kernel: [    0.606020] PCI host bridge to bus 0000:00
+Jun 17 05:51:01 localhost kernel: [    0.606697] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jun 17 05:51:01 localhost kernel: [    0.607781] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jun 17 05:51:01 localhost kernel: [    0.608771] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jun 17 05:51:01 localhost kernel: [    0.608778] pci_bus 0000:00: root bus resource [mem 0x80000000-0xafffffff window]
+Jun 17 05:51:01 localhost kernel: [    0.609614] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+Jun 17 05:51:01 localhost kernel: [    0.610494] pci_bus 0000:00: root bus resource [mem 0x180000000-0x97fffffff window]
+Jun 17 05:51:01 localhost kernel: [    0.611406] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 17 05:51:01 localhost kernel: [    0.612092] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000
+Jun 17 05:51:01 localhost kernel: [    0.613181] pci 0000:00:01.0: [1234:1111] type 00 class 0x030000
+Jun 17 05:51:01 localhost kernel: [    0.615063] pci 0000:00:01.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Jun 17 05:51:01 localhost kernel: [    0.617160] pci 0000:00:01.0: reg 0x18: [mem 0xfebd0000-0xfebd0fff]
+Jun 17 05:51:01 localhost kernel: [    0.621192] pci 0000:00:01.0: reg 0x30: [mem 0xfebc0000-0xfebcffff pref]
+Jun 17 05:51:01 localhost kernel: [    0.622277] pci 0000:00:02.0: [1af4:1004] type 00 class 0x010000
+Jun 17 05:51:01 localhost kernel: [    0.624468] pci 0000:00:02.0: reg 0x10: [io  0xc000-0xc03f]
+Jun 17 05:51:01 localhost kernel: [    0.626102] pci 0000:00:02.0: reg 0x14: [mem 0xfebd1000-0xfebd1fff]
+Jun 17 05:51:01 localhost kernel: [    0.632014] pci 0000:00:02.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]
+Jun 17 05:51:01 localhost kernel: [    0.634731] pci 0000:00:03.0: [1af4:1004] type 00 class 0x010000
+Jun 17 05:51:01 localhost kernel: [    0.636779] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc07f]
+Jun 17 05:51:01 localhost kernel: [    0.640361] pci 0000:00:03.0: reg 0x14: [mem 0xfebd2000-0xfebd2fff]
+Jun 17 05:51:01 localhost kernel: [    0.644363] pci 0000:00:03.0: reg 0x20: [mem 0xfe004000-0xfe007fff 64bit pref]
+Jun 17 05:51:01 localhost kernel: [    0.646900] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Jun 17 05:51:01 localhost kernel: [    0.648622] pci 0000:00:04.0: reg 0x10: [io  0xc080-0xc0bf]
+Jun 17 05:51:01 localhost kernel: [    0.649763] pci 0000:00:04.0: reg 0x14: [mem 0xfebd3000-0xfebd3fff]
+Jun 17 05:51:01 localhost kernel: [    0.653280] pci 0000:00:04.0: reg 0x20: [mem 0xfe008000-0xfe00bfff 64bit pref]
+Jun 17 05:51:01 localhost kernel: [    0.655044] pci 0000:00:04.0: reg 0x30: [mem 0xfeb80000-0xfebbffff pref]
+Jun 17 05:51:01 localhost kernel: [    0.656562] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100
+Jun 17 05:51:01 localhost kernel: [    0.657188] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO
+Jun 17 05:51:01 localhost kernel: [    0.659826] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601
+Jun 17 05:51:01 localhost kernel: [    0.663703] pci 0000:00:1f.2: reg 0x20: [io  0xc100-0xc11f]
+Jun 17 05:51:01 localhost kernel: [    0.664779] pci 0000:00:1f.2: reg 0x24: [mem 0xfebd4000-0xfebd4fff]
+Jun 17 05:51:01 localhost kernel: [    0.666472] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500
+Jun 17 05:51:01 localhost kernel: [    0.670839] pci 0000:00:1f.3: reg 0x20: [io  0x0700-0x073f]
+Jun 17 05:51:01 localhost kernel: [    0.672598] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 17 05:51:01 localhost kernel: [    0.672841] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 17 05:51:01 localhost kernel: [    0.673543] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 17 05:51:01 localhost kernel: [    0.674251] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 17 05:51:01 localhost kernel: [    0.674964] ACPI: PCI Interrupt Link [LNKE] (IRQs 5 *10 11)
+Jun 17 05:51:01 localhost kernel: [    0.675664] ACPI: PCI Interrupt Link [LNKF] (IRQs 5 *10 11)
+Jun 17 05:51:01 localhost kernel: [    0.676349] ACPI: PCI Interrupt Link [LNKG] (IRQs 5 10 *11)
+Jun 17 05:51:01 localhost kernel: [    0.676840] ACPI: PCI Interrupt Link [LNKH] (IRQs 5 10 *11)
+Jun 17 05:51:01 localhost kernel: [    0.677553] ACPI: PCI Interrupt Link [GSIA] (IRQs *16)
+Jun 17 05:51:01 localhost kernel: [    0.678173] ACPI: PCI Interrupt Link [GSIB] (IRQs *17)
+Jun 17 05:51:01 localhost kernel: [    0.678777] ACPI: PCI Interrupt Link [GSIC] (IRQs *18)
+Jun 17 05:51:01 localhost kernel: [    0.679390] ACPI: PCI Interrupt Link [GSID] (IRQs *19)
+Jun 17 05:51:01 localhost kernel: [    0.680005] ACPI: PCI Interrupt Link [GSIE] (IRQs *20)
+Jun 17 05:51:01 localhost kernel: [    0.680604] ACPI: PCI Interrupt Link [GSIF] (IRQs *21)
+Jun 17 05:51:01 localhost kernel: [    0.680784] ACPI: PCI Interrupt Link [GSIG] (IRQs *22)
+Jun 17 05:51:01 localhost kernel: [    0.681385] ACPI: PCI Interrupt Link [GSIH] (IRQs *23)
+Jun 17 05:51:01 localhost kernel: [    0.682147] iommu: Default domain type: Translated 
+Jun 17 05:51:01 localhost kernel: [    0.682749] pci 0000:00:01.0: vgaarb: setting as boot VGA device
+Jun 17 05:51:01 localhost kernel: [    0.683432] pci 0000:00:01.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jun 17 05:51:01 localhost kernel: [    0.684442] pci 0000:00:01.0: vgaarb: bridge control possible
+Jun 17 05:51:01 localhost kernel: [    0.684781] vgaarb: loaded
+Jun 17 05:51:01 localhost kernel: [    0.685182] EDAC MC: Ver: 3.0.0
+Jun 17 05:51:01 localhost kernel: [    0.685724] NetLabel: Initializing
+Jun 17 05:51:01 localhost kernel: [    0.685724] NetLabel:  domain hash size = 128
+Jun 17 05:51:01 localhost kernel: [    0.685850] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jun 17 05:51:01 localhost kernel: [    0.686504] NetLabel:  unlabeled traffic allowed by default
+Jun 17 05:51:01 localhost kernel: [    0.686504] PCI: Using ACPI for IRQ routing
+Jun 17 05:51:01 localhost kernel: [    0.740663] PCI: pci_cache_line_size set to 64 bytes
+Jun 17 05:51:01 localhost kernel: [    0.740793] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 17 05:51:01 localhost kernel: [    0.740797] e820: reserve RAM buffer [mem 0x7ffda000-0x7fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.740858] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jun 17 05:51:01 localhost kernel: [    0.741457] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jun 17 05:51:01 localhost kernel: [    0.744807] clocksource: Switched to clocksource kvm-clock
+Jun 17 05:51:01 localhost kernel: [    0.770834] VFS: Disk quotas dquot_6.6.0
+Jun 17 05:51:01 localhost kernel: [    0.771357] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 17 05:51:01 localhost kernel: [    0.772248] AppArmor: AppArmor Filesystem Enabled
+Jun 17 05:51:01 localhost kernel: [    0.772838] pnp: PnP ACPI init
+Jun 17 05:51:01 localhost kernel: [    0.773263] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773278] pnp 00:01: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773291] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773302] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773338] system 00:04: [mem 0xb0000000-0xbfffffff window] has been reserved
+Jun 17 05:51:01 localhost kernel: [    0.774194] system 00:04: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jun 17 05:51:01 localhost kernel: [    0.774383] pnp: PnP ACPI: found 5 devices
+Jun 17 05:51:01 localhost kernel: [    0.780633] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jun 17 05:51:01 localhost kernel: [    0.781727] NET: Registered protocol family 2
+Jun 17 05:51:01 localhost kernel: [    0.782291] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.789917] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.796810] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.797787] TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.798657] TCP: Hash tables configured (established 32768 bind 32768)
+Jun 17 05:51:01 localhost kernel: [    0.799449] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.800212] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Jun 17 05:51:01 localhost kernel: [    0.801085] NET: Registered protocol family 1
+Jun 17 05:51:01 localhost kernel: [    0.801603] NET: Registered protocol family 44
+Jun 17 05:51:01 localhost kernel: [    0.802143] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jun 17 05:51:01 localhost kernel: [    0.802866] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jun 17 05:51:01 localhost kernel: [    0.803583] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jun 17 05:51:01 localhost kernel: [    0.804411] pci_bus 0000:00: resource 7 [mem 0x80000000-0xafffffff window]
+Jun 17 05:51:01 localhost kernel: [    0.805232] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+Jun 17 05:51:01 localhost kernel: [    0.806023] pci_bus 0000:00: resource 9 [mem 0x180000000-0x97fffffff window]
+Jun 17 05:51:01 localhost kernel: [    0.806879] pci 0000:00:01.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jun 17 05:51:01 localhost kernel: [    0.807923] PCI: CLS 0 bytes, default 64
+Jun 17 05:51:01 localhost kernel: [    0.808425] Trying to unpack rootfs image as initramfs...
+Jun 17 05:51:01 localhost kernel: [    1.492777] Freeing initrd memory: 28336K
+Jun 17 05:51:01 localhost kernel: [    1.493423] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jun 17 05:51:01 localhost kernel: [    1.494215] software IO TLB: mapped [mem 0x000000007bfda000-0x000000007ffda000] (64MB)
+Jun 17 05:51:01 localhost kernel: [    1.495693] Initialise system trusted keyrings
+Jun 17 05:51:01 localhost kernel: [    1.496230] Key type blacklist registered
+Jun 17 05:51:01 localhost kernel: [    1.496833] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Jun 17 05:51:01 localhost kernel: [    1.498529] zbud: loaded
+Jun 17 05:51:01 localhost kernel: [    1.498986] integrity: Platform Keyring initialized
+Jun 17 05:51:01 localhost kernel: [    1.499603] Key type asymmetric registered
+Jun 17 05:51:01 localhost kernel: [    1.500071] Asymmetric key parser 'x509' registered
+Jun 17 05:51:01 localhost kernel: [    1.500641] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Jun 17 05:51:01 localhost kernel: [    1.501605] io scheduler mq-deadline registered
+Jun 17 05:51:01 localhost kernel: [    1.502574] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jun 17 05:51:01 localhost kernel: [    1.503560] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 17 05:51:01 localhost kernel: [    1.504572] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jun 17 05:51:01 localhost kernel: [    1.505774] Linux agpgart interface v0.103
+Jun 17 05:51:01 localhost kernel: [    1.506320] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+Jun 17 05:51:01 localhost kernel: [    1.507575] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 17 05:51:01 localhost kernel: [    1.509185] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 17 05:51:01 localhost kernel: [    1.509782] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 17 05:51:01 localhost kernel: [    1.510425] mousedev: PS/2 mouse device common for all mice
+Jun 17 05:51:01 localhost kernel: [    1.511099] rtc_cmos 00:03: RTC can wake from S4
+Jun 17 05:51:01 localhost kernel: [    1.512159] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jun 17 05:51:01 localhost kernel: [    1.513008] rtc_cmos 00:03: registered as rtc0
+Jun 17 05:51:01 localhost kernel: [    1.513935] rtc_cmos 00:03: setting system clock to 2023-06-17T05:50:59 UTC (1686981059)
+Jun 17 05:51:01 localhost kernel: [    1.514972] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+Jun 17 05:51:01 localhost kernel: [    1.515873] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 17 05:51:01 localhost kernel: [    1.516736] NET: Registered protocol family 10
+Jun 17 05:51:01 localhost kernel: [    1.521968] Segment Routing with IPv6
+Jun 17 05:51:01 localhost kernel: [    1.522440] mip6: Mobile IPv6
+Jun 17 05:51:01 localhost kernel: [    1.522791] NET: Registered protocol family 17
+Jun 17 05:51:01 localhost kernel: [    1.523366] mpls_gso: MPLS GSO support
+Jun 17 05:51:01 localhost kernel: [    1.523939] IPI shorthand broadcast: enabled
+Jun 17 05:51:01 localhost kernel: [    1.524475] sched_clock: Marking stable (1416137649, 107773729)->(1574674643, -50763265)
+Jun 17 05:51:01 localhost kernel: [    1.525547] registered taskstats version 1
+Jun 17 05:51:01 localhost kernel: [    1.526068] Loading compiled-in X.509 certificates
+Jun 17 05:51:01 localhost kernel: [    1.548814] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Jun 17 05:51:01 localhost kernel: [    1.549765] Loaded X.509 cert 'Debian Secure Boot Signer 2022 - linux: 14011249c2675ea8e5148542202005810584b25f'
+Jun 17 05:51:01 localhost kernel: [    1.550978] zswap: loaded using pool lzo/zbud
+Jun 17 05:51:01 localhost kernel: [    1.551776] Key type .fscrypt registered
+Jun 17 05:51:01 localhost kernel: [    1.552261] Key type fscrypt-provisioning registered
+Jun 17 05:51:01 localhost kernel: [    1.552928] AppArmor: AppArmor sha1 policy hashing enabled
+Jun 17 05:51:01 localhost kernel: [    1.561004] Freeing unused decrypted memory: 2036K
+Jun 17 05:51:01 localhost kernel: [    1.561922] Freeing unused kernel image (initmem) memory: 2668K
+Jun 17 05:51:01 localhost kernel: [    1.576790] Write protecting the kernel read-only data: 22528k
+Jun 17 05:51:01 localhost kernel: [    1.577925] Freeing unused kernel image (text/rodata gap) memory: 2040K
+Jun 17 05:51:01 localhost kernel: [    1.578808] Freeing unused kernel image (rodata/data gap) memory: 624K
+Jun 17 05:51:01 localhost kernel: [    1.616549] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jun 17 05:51:01 localhost kernel: [    1.617355] Run /init as init process
+Jun 17 05:51:01 localhost kernel: [    1.617783]   with arguments:
+Jun 17 05:51:01 localhost kernel: [    1.617784]     /init
+Jun 17 05:51:01 localhost kernel: [    1.617784]   with environment:
+Jun 17 05:51:01 localhost kernel: [    1.617785]     HOME=/
+Jun 17 05:51:01 localhost kernel: [    1.617786]     TERM=linux
+Jun 17 05:51:01 localhost kernel: [    1.617786]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64
+Jun 17 05:51:01 localhost kernel: [    1.686344] lpc_ich 0000:00:1f.0: I/O space for GPIO uninitialized
+Jun 17 05:51:01 localhost kernel: [    1.687734] PCI Interrupt Link [GSIG] enabled at IRQ 22
+Jun 17 05:51:01 localhost kernel: [    1.690181] PCI Interrupt Link [GSIH] enabled at IRQ 23
+Jun 17 05:51:01 localhost kernel: [    1.692349] PCI Interrupt Link [GSIE] enabled at IRQ 20
+Jun 17 05:51:01 localhost kernel: [    1.697484] PCI Interrupt Link [GSIA] enabled at IRQ 16
+Jun 17 05:51:01 localhost kernel: [    1.698375] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+Jun 17 05:51:01 localhost kernel: [    1.699463] i2c i2c-0: 1/1 memory slots populated (from DMI)
+Jun 17 05:51:01 localhost kernel: [    1.700292] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD
+Jun 17 05:51:01 localhost kernel: [    1.711677] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Jun 17 05:51:01 localhost kernel: [    1.713206] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
+Jun 17 05:51:01 localhost kernel: [    1.717393] SCSI subsystem initialized
+Jun 17 05:51:01 localhost kernel: [    1.737826] libata version 3.00 loaded.
+Jun 17 05:51:01 localhost kernel: [    1.741471] ahci 0000:00:1f.2: version 3.0
+Jun 17 05:51:01 localhost kernel: [    1.746918] scsi host0: Virtio SCSI HBA
+Jun 17 05:51:01 localhost kernel: [    1.748524] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jun 17 05:51:01 localhost kernel: [    1.749199] ahci 0000:00:1f.2: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jun 17 05:51:01 localhost kernel: [    1.751144] ahci 0000:00:1f.2: flags: 64bit ncq only 
+Jun 17 05:51:01 localhost kernel: [    1.753208] scsi host1: ahci
+Jun 17 05:51:01 localhost kernel: [    1.753900] scsi host2: ahci
+Jun 17 05:51:01 localhost kernel: [    1.754605] scsi host3: ahci
+Jun 17 05:51:01 localhost kernel: [    1.755271] scsi host4: ahci
+Jun 17 05:51:01 localhost kernel: [    1.755879] scsi host5: ahci
+Jun 17 05:51:01 localhost kernel: [    1.756649] scsi host6: ahci
+Jun 17 05:51:01 localhost kernel: [    1.757106] ata1: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4100 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.758022] ata2: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4180 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.758899] ata3: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4200 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.759777] ata4: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4280 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.760659] ata5: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4300 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.761865] ata6: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4380 irq 46
+Jun 17 05:51:01 localhost kernel: [    1.774263] scsi host7: Virtio SCSI HBA
+Jun 17 05:51:01 localhost kernel: [    1.776756] scsi 7:0:1:2: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jun 17 05:51:01 localhost kernel: [    2.075283] ata3: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.076067] ata1: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.076871] ata4: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.077588] ata2: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.078357] ata6: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.079370] ata5: SATA link down (SStatus 0 SControl 300)
+Jun 17 05:51:01 localhost kernel: [    2.094857] sd 0:0:0:0: Power-on or device reset occurred
+Jun 17 05:51:01 localhost kernel: [    2.095567] sd 7:0:1:2: Power-on or device reset occurred
+Jun 17 05:51:01 localhost kernel: [    2.096428] sd 7:0:1:2: [sdb] 1048576 512-byte logical blocks: (537 MB/512 MiB)
+Jun 17 05:51:01 localhost kernel: [    2.096432] sd 0:0:0:0: [sda] 166723584 512-byte logical blocks: (85.4 GB/79.5 GiB)
+Jun 17 05:51:01 localhost kernel: [    2.097442] sd 7:0:1:2: [sdb] Write Protect is off
+Jun 17 05:51:01 localhost kernel: [    2.098592] sd 0:0:0:0: [sda] Write Protect is off
+Jun 17 05:51:01 localhost kernel: [    2.099349] sd 7:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Jun 17 05:51:01 localhost kernel: [    2.100006] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Jun 17 05:51:01 localhost kernel: [    2.100052] sd 7:0:1:2: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 17 05:51:01 localhost kernel: [    2.100054] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 17 05:51:01 localhost kernel: [    2.153090] sd 7:0:1:2: [sdb] Attached SCSI disk
+Jun 17 05:51:01 localhost kernel: [    2.153093] sd 0:0:0:0: [sda] Attached SCSI disk
+Jun 17 05:51:01 localhost kernel: [    2.360459] EXT4-fs (sda): mounted filesystem with ordered data mode. Opts: (null)
+Jun 17 05:51:01 localhost kernel: [    2.389670] Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+Jun 17 05:51:01 localhost kernel: [    2.749732] fuse: init (API version 7.32)
+Jun 17 05:51:01 localhost kernel: [    2.768660] EXT4-fs (sda): re-mounted. Opts: errors=remount-ro
+Jun 17 05:51:01 localhost kernel: [    3.173297] audit: type=1400 audit(1686981061.156:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=253 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.175771] audit: type=1400 audit(1686981061.156:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=253 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.207911] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input4
+Jun 17 05:51:01 localhost kernel: [    3.233216] ACPI: Power Button [PWRF]
+Jun 17 05:51:01 localhost kernel: [    3.237823] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jun 17 05:51:01 localhost kernel: [    3.238723] sd 7:0:1:2: Attached scsi generic sg1 type 0
+Jun 17 05:51:01 localhost kernel: [    3.249174] iTCO_vendor_support: vendor-support=0
+Jun 17 05:51:01 localhost kernel: [    3.284528] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+Jun 17 05:51:01 localhost kernel: [    3.285905] iTCO_wdt: Found a ICH9 TCO device (Version=2, TCOBASE=0x0660)
+Jun 17 05:51:01 localhost kernel: [    3.287730] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+Jun 17 05:51:01 localhost kernel: [    3.298829] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Jun 17 05:51:01 localhost kernel: [    3.319920] audit: type=1400 audit(1686981061.300:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/chronyd" pid=252 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.339767] cryptd: max_cpu_qlen set to 1000
+Jun 17 05:51:01 localhost kernel: [    3.374985] AVX2 version of gcm_enc/dec engaged.
+Jun 17 05:51:01 localhost kernel: [    3.375623] AES CTR mode by8 optimization enabled
+Jun 17 05:51:01 localhost kernel: [    3.396307] bochs-drm 0000:00:01.0: vgaarb: deactivate vga console
+Jun 17 05:51:01 localhost kernel: [    3.405800] Console: switching to colour dummy device 80x25
+Jun 17 05:51:01 localhost kernel: [    3.406846] [drm] Found bochs VGA, ID 0xb0c5.
+Jun 17 05:51:01 localhost kernel: [    3.407650] [drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfebd0000.
+Jun 17 05:51:01 localhost kernel: [    3.412419] [TTM] Zone  kernel: Available graphics memory: 2006764 KiB
+Jun 17 05:51:01 localhost kernel: [    3.413438] [TTM] Initializing pool allocator
+Jun 17 05:51:01 localhost kernel: [    3.414080] [TTM] Initializing DMA pool allocator
+Jun 17 05:51:01 localhost kernel: [    3.415999] [drm] Found EDID data blob.
+Jun 17 05:51:01 localhost kernel: [    3.416699] [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:01.0 on minor 0
+Jun 17 05:51:01 localhost kernel: [    3.418606] fbcon: bochs-drmdrmfb (fb0) is primary device
+Jun 17 05:51:01 localhost kernel: [    3.475434] audit: type=1400 audit(1686981061.456:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=290 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.486591] audit: type=1400 audit(1686981061.468:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=274 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.487602] audit: type=1400 audit(1686981061.468:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=274 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.489005] audit: type=1400 audit(1686981061.472:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=274 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.492736] Console: switching to colour frame buffer device 160x50
+Jun 17 05:51:01 localhost kernel: [    3.523581] bochs-drm 0000:00:01.0: [drm] fb0: bochs-drmdrmfb frame buffer device
+Jun 17 05:51:01 localhost kernel: [    3.544700] audit: type=1400 audit(1686981061.524:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=328 comm="apparmor_parser"
+Jun 17 05:51:01 localhost kernel: [    3.613937] Adding 524284k swap on /dev/sdb.  Priority:-2 extents:1 across:524284k SSFS
+Jun 17 05:51:01 localhost systemd[1]: Finished Resets System Activity Logs.
+Jun 17 05:51:01 localhost systemd[1]: Started User Login Management.
+Jun 17 05:51:01 localhost sh[466]: eth0=eth0
+Jun 17 05:51:01 localhost systemd[1]: e2scrub_reap.service: Succeeded.
+Jun 17 05:51:01 localhost systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Jun 17 05:51:01 localhost systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Jun 17 05:51:01 localhost systemd[1]: Starting Raise network interfaces...
+Jun 17 05:51:01 localhost systemd[1]: Finished Raise network interfaces.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Network.
+Jun 17 05:51:01 localhost systemd[1]: Starting chrony, an NTP client/server...
+Jun 17 05:51:01 localhost systemd[1]: Starting OpenBSD Secure Shell server...
+Jun 17 05:51:01 localhost systemd[1]: Starting Permit User Sessions...
+Jun 17 05:51:01 localhost systemd[1]: Finished Permit User Sessions.
+Jun 17 05:51:01 localhost systemd[1]: Started Getty on tty1.
+Jun 17 05:51:01 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Login Prompts.
+Jun 17 05:51:01 localhost haveged[350]: haveged: ver: 1.9.14; arch: x86; vend: ; build: (gcc 10.2.1 ITV); collect: 128K
+Jun 17 05:51:01 localhost haveged[350]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 54019/54019
+Jun 17 05:51:01 localhost haveged[350]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00415
+Jun 17 05:51:01 localhost haveged[350]: haveged: fills: 0, generated: 0
+Jun 17 05:51:01 localhost chronyd[492]: chronyd version 4.0 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+Jun 17 05:51:01 localhost chronyd[492]: Using right/UTC timezone to obtain leap second data
+Jun 17 05:51:01 localhost chronyd[492]: Loaded seccomp filter
+Jun 17 05:51:01 localhost systemd[1]: Started chrony, an NTP client/server.
+Jun 17 05:51:01 localhost systemd[1]: Reached target System Time Synchronized.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily apt download activities.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 17 05:51:01 localhost systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 05:51:01 localhost systemd[1]: Started Discard unused blocks once a week.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily rotation of log files.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily man-db regeneration.
+Jun 17 05:51:01 localhost systemd[1]: Started Run system activity accounting tool every 10 minutes.
+Jun 17 05:51:01 localhost systemd[1]: Started Generate summary of yesterday's process accounting.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Timers.
+Jun 17 05:51:02 localhost ssh-keygen[485]: ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519
+Jun 17 05:51:02 localhost systemd[1]: Started OpenBSD Secure Shell server.
+Jun 17 05:51:02 localhost systemd[1]: Reached target Multi-User System.
+Jun 17 05:51:02 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jun 17 05:51:02 localhost systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jun 17 05:51:02 localhost systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Jun 17 05:51:02 localhost systemd[1]: Startup finished in 2.349s (kernel) + 2.115s (userspace) = 4.465s.
+Jun 17 05:51:06 localhost chronyd[492]: Selected source 132.246.11.237 (2.debian.pool.ntp.org)
+Jun 17 05:51:06 localhost chronyd[492]: System clock TAI offset set to 37 seconds
+Jun 17 05:55:01 localhost CRON[499]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 06:00:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:00:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:00:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:04:47 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:04:47 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:04:47 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:04:47 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:04:47 localhost systemd[508]: Queued start job for default target Main User Target.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Paths.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Sockets.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Timers.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Basic System.
+Jun 17 06:04:47 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:04:47 localhost systemd[1]: Started Session 2 of user root.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Main User Target.
+Jun 17 06:04:47 localhost systemd[508]: Startup finished in 47ms.
+Jun 17 06:05:01 localhost CRON[527]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 06:05:50 localhost apachectl[1691]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 06:05:50 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Starting Disk Cache Cleaning Daemon for Apache HTTP Server...
+Jun 17 06:05:50 localhost systemd[1]: Started Disk Cache Cleaning Daemon for Apache HTTP Server.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:06:11 localhost systemd[1]: serial-getty@ttyS0.service: Succeeded.
+Jun 17 06:06:11 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 17 06:06:11 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jun 17 06:06:11 localhost systemd[1]: Finished Cleanup of Temporary Directories.
+Jun 17 06:06:12 localhost systemd[1]: serial-getty@ttyS0.service: Scheduled restart job, restart counter is at 1.
+Jun 17 06:06:12 localhost systemd[1]: Stopped Serial Getty on ttyS0.
+Jun 17 06:06:12 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 06:10:31 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:10:31 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:10:31 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:15:01 localhost CRON[3324]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 06:15:34 localhost systemd[1]: Reloading.
+Jun 17 06:15:34 localhost systemd[1]: Reloading.
+Jun 17 06:15:35 localhost systemd[1]: Reached target Network is Online.
+Jun 17 06:15:35 localhost systemd[1]: Starting MySQL Community Server...
+Jun 17 06:15:35 localhost systemd[1]: Started MySQL Community Server.
+Jun 17 06:15:35 localhost systemd[1]: Reloading.
+Jun 17 06:17:01 localhost CRON[4176]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 17 06:20:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:20:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:20:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:25:01 localhost CRON[4208]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun 17 06:25:01 localhost CRON[4209]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 06:26:02 localhost systemd[1]: session-2.scope: Succeeded.
+Jun 17 06:26:02 localhost systemd[1]: session-2.scope: Consumed 39.302s CPU time.
+Jun 17 06:26:13 localhost systemd[1]: Stopping User Manager for UID 0...
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Main User Target.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Basic System.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Paths.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Sockets.
+Jun 17 06:26:13 localhost systemd[508]: Reached target Shutdown.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Timers.
+Jun 17 06:26:13 localhost systemd[508]: systemd-exit.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[508]: Finished Exit the Session.
+Jun 17 06:26:13 localhost systemd[508]: Reached target Exit the Session.
+Jun 17 06:26:13 localhost systemd[1]: user@0.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: Stopped User Manager for UID 0.
+Jun 17 06:26:13 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jun 17 06:26:13 localhost systemd[1]: run-user-0.mount: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jun 17 06:26:13 localhost systemd[1]: Removed slice User Slice of UID 0.
+Jun 17 06:26:13 localhost systemd[1]: user-0.slice: Consumed 39.342s CPU time.
+Jun 17 06:27:06 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:27:06 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:27:06 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:27:06 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:27:06 localhost systemd[4281]: Queued start job for default target Main User Target.
+Jun 17 06:27:06 localhost systemd[4281]: Created slice User Application Slice.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Paths.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Timers.
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG network certificate management daemon.
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Sockets.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Basic System.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Main User Target.
+Jun 17 06:27:06 localhost systemd[4281]: Startup finished in 35ms.
+Jun 17 06:27:06 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:27:06 localhost systemd[1]: Started Session 9 of user root.
+Jun 17 06:30:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:30:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:30:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:31:34 localhost systemd[1]: Stopping Session 9 of user root.
+Jun 17 06:31:34 localhost systemd[1]: Removed slice system-modprobe.slice.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Multi-User System.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Login Prompts.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Timers.
+Jun 17 06:31:34 localhost systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jun 17 06:31:34 localhost systemd[1]: apt-daily.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily apt download activities.
+Jun 17 06:31:34 localhost systemd[1]: e2scrub_all.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 06:31:34 localhost systemd[1]: fstrim.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Discard unused blocks once a week.
+Jun 17 06:31:34 localhost systemd[1]: logrotate.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily rotation of log files.
+Jun 17 06:31:34 localhost systemd[1]: man-db.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily man-db regeneration.
+Jun 17 06:31:34 localhost systemd[1]: sysstat-collect.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Run system activity accounting tool every 10 minutes.
+Jun 17 06:31:34 localhost systemd[1]: sysstat-summary.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Generate summary of yesterday's process accounting.
+Jun 17 06:31:34 localhost systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target System Time Synchronized.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target System Time Set.
+Jun 17 06:31:34 localhost systemd[1]: Stopping Disk Cache Cleaning Daemon for Apache HTTP Server...
+Jun 17 06:31:34 localhost chronyd[492]: chronyd exiting
+Jun 17 06:31:34 localhost systemd[1]: Stopping chrony, an NTP client/server...
+Jun 17 06:31:34 localhost systemd[1]: Stopping Regular background program processing daemon...
+Jun 17 06:31:34 localhost systemd[1]: Stopping Getty on tty1...
+Jun 17 06:31:34 localhost systemd[1]: Stopping MySQL Community Server...
+Jun 17 06:39:18 localhost kernel: [    0.000000] Linux version 5.10.0-23-amd64 (debian-kernel@lists.debian.org) (gcc-10 (Debian 10.2.1-6) 10.2.1 20210110, GNU ld (GNU Binutils for Debian) 2.35.2) #1 SMP Debian 5.10.179-1 (2023-05-12)
+Jun 17 06:39:18 localhost kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0 scsi_mod.scan=sync
+Jun 17 06:39:18 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jun 17 06:39:18 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jun 17 06:39:18 localhost kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jun 17 06:39:18 localhost kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jun 17 06:39:18 localhost kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-provided physical RAM map:
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffd9fff] usable
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffda000-0x000000007fffffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jun 17 06:39:18 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000017fffffff] usable
+Jun 17 06:39:18 localhost kernel: [    0.000000] NX (Execute Disable) protection: active
+Jun 17 06:39:18 localhost kernel: [    0.000000] SMBIOS 2.8 present.
+Jun 17 06:39:18 localhost kernel: [    0.000000] DMI: Linode Compute Instance/Standard PC (Q35 + ICH9, 2009), BIOS Not Specified 
+Jun 17 06:39:18 localhost kernel: [    0.000000] Hypervisor detected: KVM
+Jun 17 06:39:18 localhost kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 17 06:39:18 localhost kernel: [    0.000000] kvm-clock: cpu 0, msr 58401001, primary cpu clock
+Jun 17 06:39:18 localhost kernel: [    0.000000] kvm-clock: using sched offset of 7387488508 cycles
+Jun 17 06:39:18 localhost kernel: [    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jun 17 06:39:18 localhost kernel: [    0.000006] tsc: Detected 2899.998 MHz processor
+Jun 17 06:39:18 localhost kernel: [    0.001331] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 17 06:39:18 localhost kernel: [    0.001333] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 17 06:39:18 localhost kernel: [    0.001339] last_pfn = 0x180000 max_arch_pfn = 0x400000000
+Jun 17 06:39:18 localhost kernel: [    0.001369] MTRR default type: write-back
+Jun 17 06:39:18 localhost kernel: [    0.001370] MTRR fixed ranges enabled:
+Jun 17 06:39:18 localhost kernel: [    0.001371]   00000-9FFFF write-back
+Jun 17 06:39:18 localhost kernel: [    0.001372]   A0000-BFFFF uncachable
+Jun 17 06:39:18 localhost kernel: [    0.001373]   C0000-FFFFF write-protect
+Jun 17 06:39:18 localhost kernel: [    0.001373] MTRR variable ranges enabled:
+Jun 17 06:39:18 localhost kernel: [    0.001375]   0 base 0000C0000000 mask FFFFC0000000 uncachable
+Jun 17 06:39:18 localhost kernel: [    0.001375]   1 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001376]   2 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001376]   3 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001377]   4 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001377]   5 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001378]   6 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001378]   7 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001392] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jun 17 06:39:18 localhost kernel: [    0.001401] last_pfn = 0x7ffda max_arch_pfn = 0x400000000
+Jun 17 06:39:18 localhost kernel: [    0.004212] found SMP MP-table at [mem 0x000f5b90-0x000f5b9f]
+Jun 17 06:39:18 localhost kernel: [    0.004462] Using GB pages for direct mapping
+Jun 17 06:39:18 localhost kernel: [    0.010576] RAMDISK: [mem 0x34897000-0x36442fff]
+Jun 17 06:39:18 localhost kernel: [    0.010584] ACPI: Early table checksum verification disabled
+Jun 17 06:39:18 localhost kernel: [    0.010588] ACPI: RSDP 0x00000000000F5960 000014 (v00 BOCHS )
+Jun 17 06:39:18 localhost kernel: [    0.010596] ACPI: RSDT 0x000000007FFE2303 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010601] ACPI: FACP 0x000000007FFE20F3 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010606] ACPI: DSDT 0x000000007FFE0040 0020B3 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010609] ACPI: FACS 0x000000007FFE0000 000040
+Jun 17 06:39:18 localhost kernel: [    0.010620] ACPI: APIC 0x000000007FFE21E7 000080 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010623] ACPI: HPET 0x000000007FFE2267 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010626] ACPI: MCFG 0x000000007FFE229F 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010628] ACPI: WAET 0x000000007FFE22DB 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+Jun 17 06:39:18 localhost kernel: [    0.010631] ACPI: Reserving FACP table memory at [mem 0x7ffe20f3-0x7ffe21e6]
+Jun 17 06:39:18 localhost kernel: [    0.010632] ACPI: Reserving DSDT table memory at [mem 0x7ffe0040-0x7ffe20f2]
+Jun 17 06:39:18 localhost kernel: [    0.010633] ACPI: Reserving FACS table memory at [mem 0x7ffe0000-0x7ffe003f]
+Jun 17 06:39:18 localhost kernel: [    0.010634] ACPI: Reserving APIC table memory at [mem 0x7ffe21e7-0x7ffe2266]
+Jun 17 06:39:18 localhost kernel: [    0.010635] ACPI: Reserving HPET table memory at [mem 0x7ffe2267-0x7ffe229e]
+Jun 17 06:39:18 localhost kernel: [    0.010636] ACPI: Reserving MCFG table memory at [mem 0x7ffe229f-0x7ffe22da]
+Jun 17 06:39:18 localhost kernel: [    0.010637] ACPI: Reserving WAET table memory at [mem 0x7ffe22db-0x7ffe2302]
+Jun 17 06:39:18 localhost kernel: [    0.010697] ACPI: Local APIC address 0xfee00000
+Jun 17 06:39:18 localhost kernel: [    0.011012] No NUMA configuration found
+Jun 17 06:39:18 localhost kernel: [    0.011013] Faking a node at [mem 0x0000000000000000-0x000000017fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011022] NODE_DATA(0) allocated [mem 0x17ffd4000-0x17fffdfff]
+Jun 17 06:39:18 localhost kernel: [    0.011317] Zone ranges:
+Jun 17 06:39:18 localhost kernel: [    0.011318]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011320]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011321]   Normal   [mem 0x0000000100000000-0x000000017fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011323]   Device   empty
+Jun 17 06:39:18 localhost kernel: [    0.011324] Movable zone start for each node
+Jun 17 06:39:18 localhost kernel: [    0.011327] Early memory node ranges
+Jun 17 06:39:18 localhost kernel: [    0.011328]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jun 17 06:39:18 localhost kernel: [    0.011329]   node   0: [mem 0x0000000000100000-0x000000007ffd9fff]
+Jun 17 06:39:18 localhost kernel: [    0.011330]   node   0: [mem 0x0000000100000000-0x000000017fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011332] Initmem setup node 0 [mem 0x0000000000001000-0x000000017fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.011334] On node 0 totalpages: 1048440
+Jun 17 06:39:18 localhost kernel: [    0.011335]   DMA zone: 64 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011336]   DMA zone: 21 pages reserved
+Jun 17 06:39:18 localhost kernel: [    0.011337]   DMA zone: 3998 pages, LIFO batch:0
+Jun 17 06:39:18 localhost kernel: [    0.011337]   DMA32 zone: 8128 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011338]   DMA32 zone: 520154 pages, LIFO batch:63
+Jun 17 06:39:18 localhost kernel: [    0.011339]   Normal zone: 8192 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011339]   Normal zone: 524288 pages, LIFO batch:63
+Jun 17 06:39:18 localhost kernel: [    0.017002] On node 0, zone DMA: 1 pages in unavailable ranges
+Jun 17 06:39:18 localhost kernel: [    0.017039] On node 0, zone DMA: 97 pages in unavailable ranges
+Jun 17 06:39:18 localhost kernel: [    0.153963] On node 0, zone Normal: 38 pages in unavailable ranges
+Jun 17 06:39:18 localhost kernel: [    0.154367] ACPI: PM-Timer IO Port: 0x608
+Jun 17 06:39:18 localhost kernel: [    0.154370] ACPI: Local APIC address 0xfee00000
+Jun 17 06:39:18 localhost kernel: [    0.154381] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 17 06:39:18 localhost kernel: [    0.154411] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 17 06:39:18 localhost kernel: [    0.154413] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 17 06:39:18 localhost kernel: [    0.154415] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 17 06:39:18 localhost kernel: [    0.154416] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 17 06:39:18 localhost kernel: [    0.154417] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 17 06:39:18 localhost kernel: [    0.154418] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 17 06:39:18 localhost kernel: [    0.154420] ACPI: IRQ0 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154420] ACPI: IRQ5 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154421] ACPI: IRQ9 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154422] ACPI: IRQ10 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154422] ACPI: IRQ11 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154424] Using ACPI (MADT) for SMP configuration information
+Jun 17 06:39:18 localhost kernel: [    0.154426] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jun 17 06:39:18 localhost kernel: [    0.154430] TSC deadline timer available
+Jun 17 06:39:18 localhost kernel: [    0.154434] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 17 06:39:18 localhost kernel: [    0.154444] kvm-guest: KVM setup pv remote TLB flush
+Jun 17 06:39:18 localhost kernel: [    0.154452] kvm-guest: setup PV sched yield
+Jun 17 06:39:18 localhost kernel: [    0.154462] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jun 17 06:39:18 localhost kernel: [    0.154463] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jun 17 06:39:18 localhost kernel: [    0.154464] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jun 17 06:39:18 localhost kernel: [    0.154465] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jun 17 06:39:18 localhost kernel: [    0.154466] PM: hibernation: Registered nosave memory: [mem 0x7ffda000-0x7fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.154467] PM: hibernation: Registered nosave memory: [mem 0x80000000-0xafffffff]
+Jun 17 06:39:18 localhost kernel: [    0.154468] PM: hibernation: Registered nosave memory: [mem 0xb0000000-0xbfffffff]
+Jun 17 06:39:18 localhost kernel: [    0.154469] PM: hibernation: Registered nosave memory: [mem 0xc0000000-0xfed1bfff]
+Jun 17 06:39:18 localhost kernel: [    0.154470] PM: hibernation: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+Jun 17 06:39:18 localhost kernel: [    0.154471] PM: hibernation: Registered nosave memory: [mem 0xfed20000-0xfeffbfff]
+Jun 17 06:39:18 localhost kernel: [    0.154471] PM: hibernation: Registered nosave memory: [mem 0xfeffc000-0xfeffffff]
+Jun 17 06:39:18 localhost kernel: [    0.154472] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xfffbffff]
+Jun 17 06:39:18 localhost kernel: [    0.154473] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Jun 17 06:39:18 localhost kernel: [    0.154475] [mem 0xc0000000-0xfed1bfff] available for PCI devices
+Jun 17 06:39:18 localhost kernel: [    0.154476] Booting paravirtualized kernel on KVM
+Jun 17 06:39:18 localhost kernel: [    0.154478] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jun 17 06:39:18 localhost kernel: [    0.158246] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Jun 17 06:39:18 localhost kernel: [    0.163946] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u1048576
+Jun 17 06:39:18 localhost kernel: [    0.163953] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Jun 17 06:39:18 localhost kernel: [    0.163955] pcpu-alloc: [0] 0 1 
+Jun 17 06:39:18 localhost kernel: [    0.163981] kvm-guest: KVM setup async PF for cpu 0
+Jun 17 06:39:18 localhost kernel: [    0.163987] kvm-guest: stealtime: cpu 0, msr 17bc35080
+Jun 17 06:39:18 localhost kernel: [    0.163991] kvm-guest: PV spinlocks enabled
+Jun 17 06:39:18 localhost kernel: [    0.163994] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.164001] Built 1 zonelists, mobility grouping on.  Total pages: 1032035
+Jun 17 06:39:18 localhost kernel: [    0.164002] Policy zone: Normal
+Jun 17 06:39:18 localhost kernel: [    0.164003] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64 root=/dev/sda ro console=ttyS0,19200n8 net.ifnames=0 scsi_mod.scan=sync
+Jun 17 06:39:18 localhost kernel: [    0.175073] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.180607] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.180640] mem auto-init: stack:off, heap alloc:on, heap free:off
+Jun 17 06:39:18 localhost kernel: [    0.296608] Memory: 2084260K/4193760K available (12295K kernel code, 2536K rwdata, 7568K rodata, 2668K init, 17720K bss, 215976K reserved, 0K cma-reserved)
+Jun 17 06:39:18 localhost kernel: [    0.297145] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Jun 17 06:39:18 localhost kernel: [    0.297172] ftrace: allocating 36577 entries in 143 pages
+Jun 17 06:39:18 localhost kernel: [    0.311862] ftrace: allocated 143 pages with 5 groups
+Jun 17 06:39:18 localhost kernel: [    0.318730] rcu: Hierarchical RCU implementation.
+Jun 17 06:39:18 localhost kernel: [    0.318733] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Jun 17 06:39:18 localhost kernel: [    0.318734] 	Rude variant of Tasks RCU enabled.
+Jun 17 06:39:18 localhost kernel: [    0.318735] 	Tracing variant of Tasks RCU enabled.
+Jun 17 06:39:18 localhost kernel: [    0.318736] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jun 17 06:39:18 localhost kernel: [    0.318738] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Jun 17 06:39:18 localhost kernel: [    0.322672] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Jun 17 06:39:18 localhost kernel: [    0.322869] random: crng init done
+Jun 17 06:39:18 localhost kernel: [    0.335564] Console: colour VGA+ 80x25
+Jun 17 06:39:18 localhost kernel: [    0.436721] printk: console [ttyS0] enabled
+Jun 17 06:39:18 localhost kernel: [    0.437274] ACPI: Core revision 20200925
+Jun 17 06:39:18 localhost kernel: [    0.437936] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+Jun 17 06:39:18 localhost kernel: [    0.439258] APIC: Switch to symmetric I/O mode setup
+Jun 17 06:39:18 localhost kernel: [    0.440316] x2apic enabled
+Jun 17 06:39:18 localhost kernel: [    0.440819] Switched APIC routing to physical x2apic.
+Jun 17 06:39:18 localhost kernel: [    0.441471] kvm-guest: setup PV IPIs
+Jun 17 06:39:18 localhost kernel: [    0.442725] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 17 06:39:18 localhost kernel: [    0.443547] tsc: Marking TSC unstable due to TSCs unsynchronized
+Jun 17 06:39:18 localhost kernel: [    0.444442] Calibrating delay loop (skipped) preset value.. 5799.99 BogoMIPS (lpj=11599992)
+Jun 17 06:39:18 localhost kernel: [    0.445501] pid_max: default: 32768 minimum: 301
+Jun 17 06:39:18 localhost kernel: [    0.446080] LSM: Security Framework initializing
+Jun 17 06:39:18 localhost kernel: [    0.446681] Yama: disabled by default; enable with sysctl kernel.yama.*
+Jun 17 06:39:18 localhost kernel: [    0.448507] AppArmor: AppArmor initialized
+Jun 17 06:39:18 localhost kernel: [    0.449149] TOMOYO Linux initialized
+Jun 17 06:39:18 localhost kernel: [    0.449618] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.450479] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.451717] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Jun 17 06:39:18 localhost kernel: [    0.452523] Last level iTLB entries: 4KB 512, 2MB 255, 4MB 127
+Jun 17 06:39:18 localhost kernel: [    0.453247] Last level dTLB entries: 4KB 512, 2MB 255, 4MB 127, 1GB 0
+Jun 17 06:39:18 localhost kernel: [    0.454042] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jun 17 06:39:18 localhost kernel: [    0.455051] Spectre V2 : Mitigation: Retpolines
+Jun 17 06:39:18 localhost kernel: [    0.455723] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jun 17 06:39:18 localhost kernel: [    0.456440] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Jun 17 06:39:18 localhost kernel: [    0.457231] Spectre V2 : Enabling Speculation Barrier for firmware calls
+Jun 17 06:39:18 localhost kernel: [    0.457994] RETBleed: Mitigation: untrained return thunk
+Jun 17 06:39:18 localhost kernel: [    0.458689] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jun 17 06:39:18 localhost kernel: [    0.460441] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Jun 17 06:39:18 localhost kernel: [    0.466369] Freeing SMP alternatives memory: 32K
+Jun 17 06:39:18 localhost kernel: [    0.468253] smpboot: CPU0: AMD EPYC 7542 32-Core Processor (family: 0x17, model: 0x31, stepping: 0x0)
+Jun 17 06:39:18 localhost kernel: [    0.468544] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+Jun 17 06:39:18 localhost kernel: [    0.469363] ... version:                0
+Jun 17 06:39:18 localhost kernel: [    0.469898] ... bit width:              48
+Jun 17 06:39:18 localhost kernel: [    0.470390] ... generic registers:      6
+Jun 17 06:39:18 localhost kernel: [    0.470860] ... value mask:             0000ffffffffffff
+Jun 17 06:39:18 localhost kernel: [    0.471479] ... max period:             00007fffffffffff
+Jun 17 06:39:18 localhost kernel: [    0.472135] ... fixed-purpose events:   0
+Jun 17 06:39:18 localhost kernel: [    0.472443] ... event mask:             000000000000003f
+Jun 17 06:39:18 localhost kernel: [    0.473123] rcu: Hierarchical SRCU implementation.
+Jun 17 06:39:18 localhost kernel: [    0.474018] smp: Bringing up secondary CPUs ...
+Jun 17 06:39:18 localhost kernel: [    0.474687] x86: Booting SMP configuration:
+Jun 17 06:39:18 localhost kernel: [    0.475210] .... node  #0, CPUs:      #1
+Jun 17 06:39:18 localhost kernel: [    0.121588] kvm-clock: cpu 1, msr 58401041, secondary cpu clock
+Jun 17 06:39:18 localhost kernel: [    0.476296] kvm-guest: KVM setup async PF for cpu 1
+Jun 17 06:39:18 localhost kernel: [    0.476296] kvm-guest: stealtime: cpu 1, msr 17bd35080
+Jun 17 06:39:18 localhost kernel: [    0.476452] smp: Brought up 1 node, 2 CPUs
+Jun 17 06:39:18 localhost kernel: [    0.477005] smpboot: Max logical packages: 1
+Jun 17 06:39:18 localhost kernel: [    0.477634] smpboot: Total of 2 processors activated (11599.99 BogoMIPS)
+Jun 17 06:39:18 localhost kernel: [    0.509173] node 0 deferred pages initialised in 28ms
+Jun 17 06:39:18 localhost kernel: [    0.509184] devtmpfs: initialized
+Jun 17 06:39:18 localhost kernel: [    0.509184] x86/mm: Memory block size: 128MB
+Jun 17 06:39:18 localhost kernel: [    0.509780] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jun 17 06:39:18 localhost kernel: [    0.509780] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.510471] pinctrl core: initialized pinctrl subsystem
+Jun 17 06:39:18 localhost kernel: [    0.511267] NET: Registered protocol family 16
+Jun 17 06:39:18 localhost kernel: [    0.511998] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Jun 17 06:39:18 localhost kernel: [    0.512787] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Jun 17 06:39:18 localhost kernel: [    0.514173] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Jun 17 06:39:18 localhost kernel: [    0.515116] audit: initializing netlink subsys (disabled)
+Jun 17 06:39:18 localhost kernel: [    0.516450] audit: type=2000 audit(1686983956.382:1): state=initialized audit_enabled=0 res=1
+Jun 17 06:39:18 localhost kernel: [    0.516538] thermal_sys: Registered thermal governor 'fair_share'
+Jun 17 06:39:18 localhost kernel: [    0.520443] thermal_sys: Registered thermal governor 'bang_bang'
+Jun 17 06:39:18 localhost kernel: [    0.520443] thermal_sys: Registered thermal governor 'step_wise'
+Jun 17 06:39:18 localhost kernel: [    0.520443] thermal_sys: Registered thermal governor 'user_space'
+Jun 17 06:39:18 localhost kernel: [    0.520443] thermal_sys: Registered thermal governor 'power_allocator'
+Jun 17 06:39:18 localhost kernel: [    0.520447] cpuidle: using governor ladder
+Jun 17 06:39:18 localhost kernel: [    0.524450] cpuidle: using governor menu
+Jun 17 06:39:18 localhost kernel: [    0.525489] ACPI: bus type PCI registered
+Jun 17 06:39:18 localhost kernel: [    0.525489] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 17 06:39:18 localhost kernel: [    0.525850] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xb0000000-0xbfffffff] (base 0xb0000000)
+Jun 17 06:39:18 localhost kernel: [    0.526974] PCI: MMCONFIG at [mem 0xb0000000-0xbfffffff] reserved in E820
+Jun 17 06:39:18 localhost kernel: [    0.528459] PCI: Using configuration type 1 for base access
+Jun 17 06:39:18 localhost kernel: [    0.529764] Kprobes globally optimized
+Jun 17 06:39:18 localhost kernel: [    0.530226] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Jun 17 06:39:18 localhost kernel: [    0.530226] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jun 17 06:39:18 localhost kernel: [    0.632594] ACPI: Added _OSI(Module Device)
+Jun 17 06:39:18 localhost kernel: [    0.636444] ACPI: Added _OSI(Processor Device)
+Jun 17 06:39:18 localhost kernel: [    0.636994] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jun 17 06:39:18 localhost kernel: [    0.637561] ACPI: Added _OSI(Processor Aggregator Device)
+Jun 17 06:39:18 localhost kernel: [    0.638219] ACPI: Added _OSI(Linux-Dell-Video)
+Jun 17 06:39:18 localhost kernel: [    0.638780] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jun 17 06:39:18 localhost kernel: [    0.639401] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jun 17 06:39:18 localhost kernel: [    0.640855] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Jun 17 06:39:18 localhost kernel: [    0.642835] ACPI: Interpreter enabled
+Jun 17 06:39:18 localhost kernel: [    0.643296] ACPI: (supports S0 S3 S4 S5)
+Jun 17 06:39:18 localhost kernel: [    0.643753] ACPI: Using IOAPIC for interrupt routing
+Jun 17 06:39:18 localhost kernel: [    0.644350] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jun 17 06:39:18 localhost kernel: [    0.644508] ACPI: Enabled 2 GPEs in block 00 to 3F
+Jun 17 06:39:18 localhost kernel: [    0.646342] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 17 06:39:18 localhost kernel: [    0.647099] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Jun 17 06:39:18 localhost kernel: [    0.648231] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug LTR]
+Jun 17 06:39:18 localhost kernel: [    0.648487] acpi PNP0A08:00: _OSC: OS now controls [SHPCHotplug PME AER PCIeCapability]
+Jun 17 06:39:18 localhost kernel: [    0.649548] PCI host bridge to bus 0000:00
+Jun 17 06:39:18 localhost kernel: [    0.650023] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jun 17 06:39:18 localhost kernel: [    0.650835] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jun 17 06:39:18 localhost kernel: [    0.651614] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jun 17 06:39:18 localhost kernel: [    0.652443] pci_bus 0000:00: root bus resource [mem 0x80000000-0xafffffff window]
+Jun 17 06:39:18 localhost kernel: [    0.653304] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+Jun 17 06:39:18 localhost kernel: [    0.654197] pci_bus 0000:00: root bus resource [mem 0x180000000-0x97fffffff window]
+Jun 17 06:39:18 localhost kernel: [    0.655066] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jun 17 06:39:18 localhost kernel: [    0.655748] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000
+Jun 17 06:39:18 localhost kernel: [    0.656836] pci 0000:00:01.0: [1234:1111] type 00 class 0x030000
+Jun 17 06:39:18 localhost kernel: [    0.660448] pci 0000:00:01.0: reg 0x10: [mem 0xfd000000-0xfdffffff pref]
+Jun 17 06:39:18 localhost kernel: [    0.662866] pci 0000:00:01.0: reg 0x18: [mem 0xfebd0000-0xfebd0fff]
+Jun 17 06:39:18 localhost kernel: [    0.666914] pci 0000:00:01.0: reg 0x30: [mem 0xfebc0000-0xfebcffff pref]
+Jun 17 06:39:18 localhost kernel: [    0.667988] pci 0000:00:02.0: [1af4:1004] type 00 class 0x010000
+Jun 17 06:39:18 localhost kernel: [    0.669852] pci 0000:00:02.0: reg 0x10: [io  0xc000-0xc03f]
+Jun 17 06:39:18 localhost kernel: [    0.673155] pci 0000:00:02.0: reg 0x14: [mem 0xfebd1000-0xfebd1fff]
+Jun 17 06:39:18 localhost kernel: [    0.678232] pci 0000:00:02.0: reg 0x20: [mem 0xfe000000-0xfe003fff 64bit pref]
+Jun 17 06:39:18 localhost kernel: [    0.681077] pci 0000:00:03.0: [1af4:1004] type 00 class 0x010000
+Jun 17 06:39:18 localhost kernel: [    0.683186] pci 0000:00:03.0: reg 0x10: [io  0xc040-0xc07f]
+Jun 17 06:39:18 localhost kernel: [    0.686342] pci 0000:00:03.0: reg 0x14: [mem 0xfebd2000-0xfebd2fff]
+Jun 17 06:39:18 localhost kernel: [    0.691993] pci 0000:00:03.0: reg 0x20: [mem 0xfe004000-0xfe007fff 64bit pref]
+Jun 17 06:39:18 localhost kernel: [    0.695653] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000
+Jun 17 06:39:18 localhost kernel: [    0.697542] pci 0000:00:04.0: reg 0x10: [io  0xc080-0xc0bf]
+Jun 17 06:39:18 localhost kernel: [    0.699121] pci 0000:00:04.0: reg 0x14: [mem 0xfebd3000-0xfebd3fff]
+Jun 17 06:39:18 localhost kernel: [    0.702981] pci 0000:00:04.0: reg 0x20: [mem 0xfe008000-0xfe00bfff 64bit pref]
+Jun 17 06:39:18 localhost kernel: [    0.704443] pci 0000:00:04.0: reg 0x30: [mem 0xfeb80000-0xfebbffff pref]
+Jun 17 06:39:18 localhost kernel: [    0.707720] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100
+Jun 17 06:39:18 localhost kernel: [    0.708859] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO
+Jun 17 06:39:18 localhost kernel: [    0.709988] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601
+Jun 17 06:39:18 localhost kernel: [    0.713657] pci 0000:00:1f.2: reg 0x20: [io  0xc100-0xc11f]
+Jun 17 06:39:18 localhost kernel: [    0.714990] pci 0000:00:1f.2: reg 0x24: [mem 0xfebd4000-0xfebd4fff]
+Jun 17 06:39:18 localhost kernel: [    0.717510] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500
+Jun 17 06:39:18 localhost kernel: [    0.719964] pci 0000:00:1f.3: reg 0x20: [io  0x0700-0x073f]
+Jun 17 06:39:18 localhost kernel: [    0.721502] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 17 06:39:18 localhost kernel: [    0.722244] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 17 06:39:18 localhost kernel: [    0.722937] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 17 06:39:18 localhost kernel: [    0.723633] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 17 06:39:18 localhost kernel: [    0.724342] ACPI: PCI Interrupt Link [LNKE] (IRQs 5 *10 11)
+Jun 17 06:39:18 localhost kernel: [    0.724501] ACPI: PCI Interrupt Link [LNKF] (IRQs 5 *10 11)
+Jun 17 06:39:18 localhost kernel: [    0.725205] ACPI: PCI Interrupt Link [LNKG] (IRQs 5 10 *11)
+Jun 17 06:39:18 localhost kernel: [    0.727087] ACPI: PCI Interrupt Link [LNKH] (IRQs 5 10 *11)
+Jun 17 06:39:18 localhost kernel: [    0.727810] ACPI: PCI Interrupt Link [GSIA] (IRQs *16)
+Jun 17 06:39:18 localhost kernel: [    0.728422] ACPI: PCI Interrupt Link [GSIB] (IRQs *17)
+Jun 17 06:39:18 localhost kernel: [    0.728449] ACPI: PCI Interrupt Link [GSIC] (IRQs *18)
+Jun 17 06:39:18 localhost kernel: [    0.729073] ACPI: PCI Interrupt Link [GSID] (IRQs *19)
+Jun 17 06:39:18 localhost kernel: [    0.729678] ACPI: PCI Interrupt Link [GSIE] (IRQs *20)
+Jun 17 06:39:18 localhost kernel: [    0.730272] ACPI: PCI Interrupt Link [GSIF] (IRQs *21)
+Jun 17 06:39:18 localhost kernel: [    0.730873] ACPI: PCI Interrupt Link [GSIG] (IRQs *22)
+Jun 17 06:39:18 localhost kernel: [    0.731463] ACPI: PCI Interrupt Link [GSIH] (IRQs *23)
+Jun 17 06:39:18 localhost kernel: [    0.732234] iommu: Default domain type: Translated 
+Jun 17 06:39:18 localhost kernel: [    0.732486] pci 0000:00:01.0: vgaarb: setting as boot VGA device
+Jun 17 06:39:18 localhost kernel: [    0.733189] pci 0000:00:01.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jun 17 06:39:18 localhost kernel: [    0.734175] pci 0000:00:01.0: vgaarb: bridge control possible
+Jun 17 06:39:18 localhost kernel: [    0.734839] vgaarb: loaded
+Jun 17 06:39:18 localhost kernel: [    0.735222] EDAC MC: Ver: 3.0.0
+Jun 17 06:39:18 localhost kernel: [    0.735761] NetLabel: Initializing
+Jun 17 06:39:18 localhost kernel: [    0.735761] NetLabel:  domain hash size = 128
+Jun 17 06:39:18 localhost kernel: [    0.735761] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jun 17 06:39:18 localhost kernel: [    0.735761] NetLabel:  unlabeled traffic allowed by default
+Jun 17 06:39:18 localhost kernel: [    0.735761] PCI: Using ACPI for IRQ routing
+Jun 17 06:39:18 localhost kernel: [    0.793509] PCI: pci_cache_line_size set to 64 bytes
+Jun 17 06:39:18 localhost kernel: [    0.793639] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 17 06:39:18 localhost kernel: [    0.793642] e820: reserve RAM buffer [mem 0x7ffda000-0x7fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.793705] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jun 17 06:39:18 localhost kernel: [    0.794320] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Jun 17 06:39:18 localhost kernel: [    0.802527] clocksource: Switched to clocksource kvm-clock
+Jun 17 06:39:18 localhost kernel: [    0.830899] VFS: Disk quotas dquot_6.6.0
+Jun 17 06:39:18 localhost kernel: [    0.831462] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 17 06:39:18 localhost kernel: [    0.832380] AppArmor: AppArmor Filesystem Enabled
+Jun 17 06:39:18 localhost kernel: [    0.833949] pnp: PnP ACPI init
+Jun 17 06:39:18 localhost kernel: [    0.834375] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834391] pnp 00:01: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834404] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834416] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834454] system 00:04: [mem 0xb0000000-0xbfffffff window] has been reserved
+Jun 17 06:39:18 localhost kernel: [    0.835312] system 00:04: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jun 17 06:39:18 localhost kernel: [    0.835550] pnp: PnP ACPI: found 5 devices
+Jun 17 06:39:18 localhost kernel: [    0.842085] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jun 17 06:39:18 localhost kernel: [    0.843153] NET: Registered protocol family 2
+Jun 17 06:39:18 localhost kernel: [    0.843701] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.868723] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.876146] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.877169] TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.878074] TCP: Hash tables configured (established 32768 bind 32768)
+Jun 17 06:39:18 localhost kernel: [    0.878897] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.879699] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Jun 17 06:39:18 localhost kernel: [    0.880570] NET: Registered protocol family 1
+Jun 17 06:39:18 localhost kernel: [    0.881087] NET: Registered protocol family 44
+Jun 17 06:39:18 localhost kernel: [    0.881633] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jun 17 06:39:18 localhost kernel: [    0.882385] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jun 17 06:39:18 localhost kernel: [    0.883128] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jun 17 06:39:18 localhost kernel: [    0.883937] pci_bus 0000:00: resource 7 [mem 0x80000000-0xafffffff window]
+Jun 17 06:39:18 localhost kernel: [    0.884808] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+Jun 17 06:39:18 localhost kernel: [    0.885880] pci_bus 0000:00: resource 9 [mem 0x180000000-0x97fffffff window]
+Jun 17 06:39:18 localhost kernel: [    0.886973] pci 0000:00:01.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jun 17 06:39:18 localhost kernel: [    0.888037] PCI: CLS 0 bytes, default 64
+Jun 17 06:39:18 localhost kernel: [    0.888578] Trying to unpack rootfs image as initramfs...
+Jun 17 06:39:18 localhost kernel: [    1.613188] Freeing initrd memory: 28336K
+Jun 17 06:39:18 localhost kernel: [    1.613807] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jun 17 06:39:18 localhost kernel: [    1.614545] software IO TLB: mapped [mem 0x000000007bfda000-0x000000007ffda000] (64MB)
+Jun 17 06:39:18 localhost kernel: [    1.615978] Initialise system trusted keyrings
+Jun 17 06:39:18 localhost kernel: [    1.616578] Key type blacklist registered
+Jun 17 06:39:18 localhost kernel: [    1.617122] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Jun 17 06:39:18 localhost kernel: [    1.618689] zbud: loaded
+Jun 17 06:39:18 localhost kernel: [    1.619154] integrity: Platform Keyring initialized
+Jun 17 06:39:18 localhost kernel: [    1.619746] Key type asymmetric registered
+Jun 17 06:39:18 localhost kernel: [    1.620214] Asymmetric key parser 'x509' registered
+Jun 17 06:39:18 localhost kernel: [    1.620811] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Jun 17 06:39:18 localhost kernel: [    1.621735] io scheduler mq-deadline registered
+Jun 17 06:39:18 localhost kernel: [    1.622749] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jun 17 06:39:18 localhost kernel: [    1.623842] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 17 06:39:18 localhost kernel: [    1.624907] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Jun 17 06:39:18 localhost kernel: [    1.626205] Linux agpgart interface v0.103
+Jun 17 06:39:18 localhost kernel: [    1.626829] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+Jun 17 06:39:18 localhost kernel: [    1.628187] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 17 06:39:18 localhost kernel: [    1.629926] serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 17 06:39:18 localhost kernel: [    1.630521] serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 17 06:39:18 localhost kernel: [    1.631249] mousedev: PS/2 mouse device common for all mice
+Jun 17 06:39:18 localhost kernel: [    1.631948] rtc_cmos 00:03: RTC can wake from S4
+Jun 17 06:39:18 localhost kernel: [    1.633153] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Jun 17 06:39:18 localhost kernel: [    1.635658] rtc_cmos 00:03: registered as rtc0
+Jun 17 06:39:18 localhost kernel: [    1.636257] rtc_cmos 00:03: setting system clock to 2023-06-17T06:39:16 UTC (1686983956)
+Jun 17 06:39:18 localhost kernel: [    1.637269] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+Jun 17 06:39:18 localhost kernel: [    1.638158] ledtrig-cpu: registered to indicate activity on CPUs
+Jun 17 06:39:18 localhost kernel: [    1.639005] NET: Registered protocol family 10
+Jun 17 06:39:18 localhost kernel: [    1.644611] Segment Routing with IPv6
+Jun 17 06:39:18 localhost kernel: [    1.645082] mip6: Mobile IPv6
+Jun 17 06:39:18 localhost kernel: [    1.645465] NET: Registered protocol family 17
+Jun 17 06:39:18 localhost kernel: [    1.646020] mpls_gso: MPLS GSO support
+Jun 17 06:39:18 localhost kernel: [    1.646608] IPI shorthand broadcast: enabled
+Jun 17 06:39:18 localhost kernel: [    1.647210] sched_clock: Marking stable (1528966262, 117588572)->(1701127857, -54573023)
+Jun 17 06:39:18 localhost kernel: [    1.648792] registered taskstats version 1
+Jun 17 06:39:18 localhost kernel: [    1.649313] Loading compiled-in X.509 certificates
+Jun 17 06:39:18 localhost kernel: [    1.672376] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Jun 17 06:39:18 localhost kernel: [    1.673461] Loaded X.509 cert 'Debian Secure Boot Signer 2022 - linux: 14011249c2675ea8e5148542202005810584b25f'
+Jun 17 06:39:18 localhost kernel: [    1.674676] zswap: loaded using pool lzo/zbud
+Jun 17 06:39:18 localhost kernel: [    1.675333] Key type .fscrypt registered
+Jun 17 06:39:18 localhost kernel: [    1.675798] Key type fscrypt-provisioning registered
+Jun 17 06:39:18 localhost kernel: [    1.676559] AppArmor: AppArmor sha1 policy hashing enabled
+Jun 17 06:39:18 localhost kernel: [    1.679206] Freeing unused decrypted memory: 2036K
+Jun 17 06:39:18 localhost kernel: [    1.680144] Freeing unused kernel image (initmem) memory: 2668K
+Jun 17 06:39:18 localhost kernel: [    1.696456] Write protecting the kernel read-only data: 22528k
+Jun 17 06:39:18 localhost kernel: [    1.697616] Freeing unused kernel image (text/rodata gap) memory: 2040K
+Jun 17 06:39:18 localhost kernel: [    1.698520] Freeing unused kernel image (rodata/data gap) memory: 624K
+Jun 17 06:39:18 localhost kernel: [    1.737298] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jun 17 06:39:18 localhost kernel: [    1.738050] Run /init as init process
+Jun 17 06:39:18 localhost kernel: [    1.738482]   with arguments:
+Jun 17 06:39:18 localhost kernel: [    1.738483]     /init
+Jun 17 06:39:18 localhost kernel: [    1.738483]   with environment:
+Jun 17 06:39:18 localhost kernel: [    1.738484]     HOME=/
+Jun 17 06:39:18 localhost kernel: [    1.738484]     TERM=linux
+Jun 17 06:39:18 localhost kernel: [    1.738485]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64
+Jun 17 06:39:18 localhost kernel: [    1.841120] lpc_ich 0000:00:1f.0: I/O space for GPIO uninitialized
+Jun 17 06:39:18 localhost kernel: [    1.842457] PCI Interrupt Link [GSIA] enabled at IRQ 16
+Jun 17 06:39:18 localhost kernel: [    1.843371] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+Jun 17 06:39:18 localhost kernel: [    1.844295] i2c i2c-0: 1/1 memory slots populated (from DMI)
+Jun 17 06:39:18 localhost kernel: [    1.845141] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD
+Jun 17 06:39:18 localhost kernel: [    1.846379] PCI Interrupt Link [GSIG] enabled at IRQ 22
+Jun 17 06:39:18 localhost kernel: [    1.847975] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Jun 17 06:39:18 localhost kernel: [    1.849519] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
+Jun 17 06:39:18 localhost kernel: [    1.852606] PCI Interrupt Link [GSIH] enabled at IRQ 23
+Jun 17 06:39:18 localhost kernel: [    1.858010] PCI Interrupt Link [GSIE] enabled at IRQ 20
+Jun 17 06:39:18 localhost kernel: [    1.880891] SCSI subsystem initialized
+Jun 17 06:39:18 localhost kernel: [    1.906490] scsi host0: Virtio SCSI HBA
+Jun 17 06:39:18 localhost kernel: [    1.909619] libata version 3.00 loaded.
+Jun 17 06:39:18 localhost kernel: [    1.914711] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jun 17 06:39:18 localhost kernel: [    1.914736] ahci 0000:00:1f.2: version 3.0
+Jun 17 06:39:18 localhost kernel: [    1.916826] ahci 0000:00:1f.2: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Jun 17 06:39:18 localhost kernel: [    1.918096] ahci 0000:00:1f.2: flags: 64bit ncq only 
+Jun 17 06:39:18 localhost kernel: [    1.926064] scsi host1: ahci
+Jun 17 06:39:18 localhost kernel: [    1.926623] scsi host2: ahci
+Jun 17 06:39:18 localhost kernel: [    1.927197] scsi host3: ahci
+Jun 17 06:39:18 localhost kernel: [    1.934310] scsi host4: ahci
+Jun 17 06:39:18 localhost kernel: [    1.934829] scsi host5: ahci
+Jun 17 06:39:18 localhost kernel: [    1.935338] scsi host6: ahci
+Jun 17 06:39:18 localhost kernel: [    1.935885] ata1: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4100 irq 46
+Jun 17 06:39:18 localhost kernel: [    1.936826] ata2: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4180 irq 46
+Jun 17 06:39:18 localhost kernel: [    1.937700] ata3: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4200 irq 46
+Jun 17 06:39:18 localhost kernel: [    1.938599] ata4: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4280 irq 46
+Jun 17 06:39:18 localhost kernel: [    1.939594] ata5: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4300 irq 46
+Jun 17 06:39:18 localhost kernel: [    1.940693] ata6: SATA max UDMA/133 abar m4096@0xfebd4000 port 0xfebd4380 irq 46
+Jun 17 06:39:18 localhost kernel: [    2.084842] scsi host7: Virtio SCSI HBA
+Jun 17 06:39:18 localhost kernel: [    2.094307] scsi 7:0:1:2: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Jun 17 06:39:18 localhost kernel: [    2.254963] ata5: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.255762] ata4: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.256674] ata2: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.257456] ata6: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.258240] ata1: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.259125] ata3: SATA link down (SStatus 0 SControl 300)
+Jun 17 06:39:18 localhost kernel: [    2.269328] sd 7:0:1:2: Power-on or device reset occurred
+Jun 17 06:39:18 localhost kernel: [    2.269975] sd 0:0:0:0: Power-on or device reset occurred
+Jun 17 06:39:18 localhost kernel: [    2.271778] sd 7:0:1:2: [sdb] 1048576 512-byte logical blocks: (537 MB/512 MiB)
+Jun 17 06:39:18 localhost kernel: [    2.272675] sd 0:0:0:0: [sda] 166723584 512-byte logical blocks: (85.4 GB/79.5 GiB)
+Jun 17 06:39:18 localhost kernel: [    2.273639] sd 7:0:1:2: [sdb] Write Protect is off
+Jun 17 06:39:18 localhost kernel: [    2.274306] sd 7:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Jun 17 06:39:18 localhost kernel: [    2.274316] sd 0:0:0:0: [sda] Write Protect is off
+Jun 17 06:39:18 localhost kernel: [    2.274904] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Jun 17 06:39:18 localhost kernel: [    2.274948] sd 7:0:1:2: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 17 06:39:18 localhost kernel: [    2.276136] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 17 06:39:18 localhost kernel: [    2.300876] sd 0:0:0:0: [sda] Attached SCSI disk
+Jun 17 06:39:18 localhost kernel: [    2.301791] sd 7:0:1:2: [sdb] Attached SCSI disk
+Jun 17 06:39:18 localhost kernel: [    2.596726] EXT4-fs (sda): mounted filesystem with ordered data mode. Opts: (null)
+Jun 17 06:39:18 localhost kernel: [    2.681548] Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+Jun 17 06:39:18 localhost kernel: [    3.202027] fuse: init (API version 7.32)
+Jun 17 06:39:18 localhost kernel: [    3.257382] EXT4-fs (sda): re-mounted. Opts: errors=remount-ro
+Jun 17 06:39:18 localhost kernel: [    3.511274] audit: type=1400 audit(1686983958.372:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=247 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.513387] audit: type=1400 audit(1686983958.372:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=247 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.536356] audit: type=1400 audit(1686983958.396:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/chronyd" pid=246 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.546850] input: PC Speaker as /devices/platform/pcspkr/input/input4
+Jun 17 06:39:18 localhost kernel: [    3.547987] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+Jun 17 06:39:18 localhost kernel: [    3.550882] audit: type=1400 audit(1686983958.412:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=265 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.555588] audit: type=1400 audit(1686983958.412:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=265 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.574500] ACPI: Power Button [PWRF]
+Jun 17 06:39:18 localhost kernel: [    3.581989] audit: type=1400 audit(1686983958.412:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=265 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.598919] audit: type=1400 audit(1686983958.420:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=268 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.625421] audit: type=1400 audit(1686983958.424:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=270 comm="apparmor_parser"
+Jun 17 06:39:18 localhost kernel: [    3.632942] iTCO_vendor_support: vendor-support=0
+Jun 17 06:39:18 localhost kernel: [    3.641723] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+Jun 17 06:39:18 localhost kernel: [    3.642686] iTCO_wdt: Found a ICH9 TCO device (Version=2, TCOBASE=0x0660)
+Jun 17 06:39:18 localhost kernel: [    3.645571] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+Jun 17 06:39:18 localhost kernel: [    3.650905] cryptd: max_cpu_qlen set to 1000
+Jun 17 06:39:18 localhost kernel: [    3.713507] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jun 17 06:39:18 localhost kernel: [    3.716196] sd 7:0:1:2: Attached scsi generic sg1 type 0
+Jun 17 06:39:18 localhost kernel: [    3.746514] AVX2 version of gcm_enc/dec engaged.
+Jun 17 06:39:18 localhost kernel: [    3.747285] AES CTR mode by8 optimization enabled
+Jun 17 06:39:18 localhost kernel: [    3.759334] bochs-drm 0000:00:01.0: vgaarb: deactivate vga console
+Jun 17 06:39:18 localhost kernel: [    3.767852] Console: switching to colour dummy device 80x25
+Jun 17 06:39:18 localhost kernel: [    3.769091] [drm] Found bochs VGA, ID 0xb0c5.
+Jun 17 06:39:18 localhost kernel: [    3.769781] [drm] Framebuffer size 16384 kB @ 0xfd000000, mmio @ 0xfebd0000.
+Jun 17 06:39:18 localhost kernel: [    3.774455] [TTM] Zone  kernel: Available graphics memory: 2006760 KiB
+Jun 17 06:39:18 localhost kernel: [    3.775595] [TTM] Initializing pool allocator
+Jun 17 06:39:18 localhost kernel: [    3.776220] [TTM] Initializing DMA pool allocator
+Jun 17 06:39:18 localhost kernel: [    3.778736] [drm] Found EDID data blob.
+Jun 17 06:39:18 localhost kernel: [    3.781766] [drm] Initialized bochs-drm 1.0.0 20130925 for 0000:00:01.0 on minor 0
+Jun 17 06:39:18 localhost kernel: [    3.783775] fbcon: bochs-drmdrmfb (fb0) is primary device
+Jun 17 06:39:18 localhost kernel: [    3.866809] Console: switching to colour frame buffer device 160x50
+Jun 17 06:39:18 localhost kernel: [    3.899546] bochs-drm 0000:00:01.0: [drm] fb0: bochs-drmdrmfb frame buffer device
+Jun 17 06:39:18 localhost kernel: [    4.000963] Adding 524284k swap on /dev/sdb.  Priority:-2 extents:1 across:524284k SSFS
+Jun 17 06:39:18 localhost systemd[1]: Mounted FUSE Control File System.
+Jun 17 06:39:18 localhost systemd[1]: Finished Set the console keyboard layout.
+Jun 17 06:39:18 localhost systemd[1]: Mounted Kernel Configuration File System.
+Jun 17 06:39:18 localhost systemd[1]: Finished Load/Save Random Seed.
+Jun 17 06:39:18 localhost systemd[1]: Finished Coldplug All udev Devices.
+Jun 17 06:39:18 localhost systemd[1]: Finished Apply Kernel Variables.
+Jun 17 06:39:18 localhost systemd[1]: Finished Create System Users.
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Jun 17 06:39:18 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun 17 06:39:18 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+Jun 17 06:39:18 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Local File Systems (Pre).
+Jun 17 06:39:18 localhost apparmor.systemd[236]: Restarting AppArmor
+Jun 17 06:39:18 localhost apparmor.systemd[236]: Reloading AppArmor profiles
+Jun 17 06:39:18 localhost systemd[1]: Reached target Local File Systems.
+Jun 17 06:39:18 localhost systemd[1]: Starting Load AppArmor profiles...
+Jun 17 06:39:18 localhost systemd[1]: Starting Set console font and keymap...
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Jun 17 06:39:18 localhost systemd[1]: Finished Set console font and keymap.
+Jun 17 06:39:18 localhost systemd-udevd[240]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jun 17 06:39:18 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+Jun 17 06:39:18 localhost systemd[1]: Finished Flush Journal to Persistent Storage.
+Jun 17 06:39:18 localhost systemd[1]: Starting Create Volatile Files and Directories...
+Jun 17 06:39:18 localhost systemd[1]: Finished Create Volatile Files and Directories.
+Jun 17 06:39:18 localhost systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 17 06:39:18 localhost systemd[1]: Finished Load AppArmor profiles.
+Jun 17 06:39:18 localhost systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+Jun 17 06:39:18 localhost systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Jun 17 06:39:18 localhost systemd-udevd[248]: Using default interface naming scheme 'v247'.
+Jun 17 06:39:18 localhost systemd[1]: Found device /dev/ttyS0.
+Jun 17 06:39:18 localhost haveged[273]: haveged: command socket is listening at fd 3
+Jun 17 06:39:18 localhost systemd[1]: Found device Virtio network device.
+Jun 17 06:39:18 localhost systemd[1]: Started ifup for eth0.
+Jun 17 06:39:18 localhost systemd[1]: Found device QEMU_HARDDISK.
+Jun 17 06:39:18 localhost systemd[1]: Activating swap /dev/sdb...
+Jun 17 06:39:18 localhost systemd[1]: Activated swap /dev/sdb.
+Jun 17 06:39:18 localhost haveged[273]: haveged: ver: 1.9.14; arch: x86; vend: ; build: (gcc 10.2.1 ITV); collect: 128K
+Jun 17 06:39:18 localhost haveged[273]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 54019/54019
+Jun 17 06:39:18 localhost haveged[273]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00316
+Jun 17 06:39:18 localhost haveged[273]: haveged: fills: 0, generated: 0
+Jun 17 06:39:18 localhost systemd[1]: Reached target Swap.
+Jun 17 06:39:18 localhost systemd[1]: Reached target System Initialization.
+Jun 17 06:39:18 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun 17 06:39:18 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Sockets.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Basic System.
+Jun 17 06:39:18 localhost systemd[1]: Started Regular background program processing daemon.
+Jun 17 06:39:18 localhost systemd[1]: Started D-Bus System Message Bus.
+Jun 17 06:39:18 localhost cron[384]: (CRON) INFO (pidfile fd = 3)
+Jun 17 06:39:18 localhost systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Jun 17 06:39:18 localhost cron[384]: (CRON) INFO (Running @reboot jobs)
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting System Logging Service...
+Jun 17 06:39:18 localhost systemd[1]: Starting Resets System Activity Logs...
+Jun 17 06:39:18 localhost systemd[1]: Starting User Login Management...
+Jun 17 06:39:18 localhost systemd[1]: Finished Resets System Activity Logs.
+Jun 17 06:39:18 localhost rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Jun 17 06:39:18 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="388" x-info="https://www.rsyslog.com"] start
+Jun 17 06:39:18 localhost systemd[1]: Started System Logging Service.
+Jun 17 06:39:19 localhost sh[411]: eth0=eth0
+Jun 17 06:39:19 localhost systemd[1]: Started User Login Management.
+Jun 17 06:39:19 localhost systemd[1]: e2scrub_reap.service: Succeeded.
+Jun 17 06:39:19 localhost systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Jun 17 06:39:19 localhost systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Jun 17 06:39:19 localhost systemd[1]: Starting Raise network interfaces...
+Jun 17 06:39:19 localhost systemd[1]: Finished Raise network interfaces.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Network.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Network is Online.
+Jun 17 06:39:19 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 06:39:19 localhost systemd[1]: Starting chrony, an NTP client/server...
+Jun 17 06:39:19 localhost systemd[1]: Starting MySQL Community Server...
+Jun 17 06:39:19 localhost systemd[1]: Starting OpenBSD Secure Shell server...
+Jun 17 06:39:19 localhost systemd[1]: Starting Permit User Sessions...
+Jun 17 06:39:19 localhost systemd[1]: Finished Permit User Sessions.
+Jun 17 06:39:19 localhost systemd[1]: Started Getty on tty1.
+Jun 17 06:39:19 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Login Prompts.
+Jun 17 06:39:19 localhost chronyd[518]: chronyd version 4.0 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+Jun 17 06:39:19 localhost systemd[1]: Started OpenBSD Secure Shell server.
+Jun 17 06:39:19 localhost chronyd[518]: Frequency -12.462 +/- 0.090 ppm read from /var/lib/chrony/chrony.drift
+Jun 17 06:39:19 localhost chronyd[518]: Using right/UTC timezone to obtain leap second data
+Jun 17 06:39:19 localhost chronyd[518]: Loaded seccomp filter
+Jun 17 06:39:19 localhost systemd[1]: Started chrony, an NTP client/server.
+Jun 17 06:39:19 localhost systemd[1]: Reached target System Time Synchronized.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily apt download activities.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 17 06:39:19 localhost systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 06:39:19 localhost systemd[1]: Started Discard unused blocks once a week.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily rotation of log files.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily man-db regeneration.
+Jun 17 06:39:19 localhost systemd[1]: Started Run system activity accounting tool every 10 minutes.
+Jun 17 06:39:19 localhost systemd[1]: Started Generate summary of yesterday's process accounting.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Timers.
+Jun 17 06:39:19 localhost apachectl[485]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 06:39:19 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 06:39:22 localhost systemd[1]: Started MySQL Community Server.
+Jun 17 06:39:22 localhost systemd[1]: Reached target Multi-User System.
+Jun 17 06:39:22 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jun 17 06:39:22 localhost systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jun 17 06:39:22 localhost systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Jun 17 06:39:22 localhost systemd[1]: Startup finished in 2.749s (kernel) + 4.925s (userspace) = 7.674s.
+Jun 17 06:39:26 localhost chronyd[518]: Selected source 162.159.200.1 (2.debian.pool.ntp.org)
+Jun 17 06:39:26 localhost chronyd[518]: System clock wrong by 1.172392 seconds
+Jun 17 06:39:26 localhost chronyd[518]: System clock was stepped by 1.172392 seconds
+Jun 17 06:39:26 localhost chronyd[518]: System clock TAI offset set to 37 seconds
+Jun 17 06:40:09 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:40:09 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:40:09 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:40:09 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:40:09 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:40:09 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:40:09 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:40:09 localhost systemd[630]: Queued start job for default target Main User Target.
+Jun 17 06:40:09 localhost systemd[630]: Created slice User Application Slice.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Paths.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Timers.
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG network certificate management daemon.
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Sockets.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Basic System.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Main User Target.
+Jun 17 06:40:09 localhost systemd[630]: Startup finished in 203ms.
+Jun 17 06:40:09 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:40:09 localhost systemd[1]: Started Session 1 of user root.
+Jun 17 06:45:01 localhost CRON[675]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 06:48:30 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun 17 06:48:30 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jun 17 06:48:30 localhost systemd[1]: Finished Daily apt upgrade and clean activities.
+Jun 17 06:50:30 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:50:30 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:50:30 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:54:18 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 17 06:54:18 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jun 17 06:54:18 localhost systemd[1]: Finished Cleanup of Temporary Directories.
+Jun 17 06:55:01 localhost CRON[779]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 07:00:30 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:00:30 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:00:30 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 07:02:55 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:02:55 localhost apachectl[805]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:02:55 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:02:55 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:02:55 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:02:55 localhost apachectl[811]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:02:55 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:05:01 localhost CRON[875]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:02 localhost systemd[1]: Started Clean PHP session files every 30 mins.
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:08 localhost libapache2-mod-php7.4: apache2_switch_mpm Switch to prefork
+Jun 17 07:06:08 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:08 localhost apachectl[7404]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:18 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:18 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7410]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:06:18 localhost libapache2-mod-php7.4: apache2_invoke: Enable module php7.4
+Jun 17 07:06:18 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7445]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:18 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:18 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7451]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:06:47 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:47 localhost apachectl[7572]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:47 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:47 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:47 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:47 localhost apachectl[7578]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:47 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:46 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:07:46 localhost apachectl[8355]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:07:46 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:07:46 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:07:46 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:07:46 localhost apachectl[8361]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:07:46 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:09:01 localhost CRON[8377]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun 17 07:09:30 localhost systemd[1]: Starting Clean php session files...
+Jun 17 07:09:30 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jun 17 07:09:30 localhost systemd[1]: Finished Clean php session files.
+Jun 17 07:10:06 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:10:06 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:10:06 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 07:11:37 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:11:37 localhost apachectl[8481]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:11:37 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:11:37 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:11:37 localhost systemd[1]: apache2.service: Consumed 3.091s CPU time.
+Jun 17 07:11:37 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:11:37 localhost apachectl[8487]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:11:37 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:15:01 localhost CRON[9435]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 17 07:17:01 localhost CRON[9506]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 17 07:20:12 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:20:12 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:20:12 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 07:25:01 localhost CRON[9766]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)

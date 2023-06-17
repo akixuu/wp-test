@@ -1,0 +1,815 @@
+
+Log started: 2023-06-17  06:05:34
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 30868 files and directories currently installed.)
+Preparing to unpack .../libssl1.1_1.1.1n-0+deb11u5_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.1n-0+deb11u5) over (1.1.1n-0+deb11u4) ...
+Setting up libssl1.1:amd64 (1.1.1n-0+deb11u5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 30868 files and directories currently installed.)
+Preparing to unpack .../openssl_1.1.1n-0+deb11u5_amd64.deb ...
+Unpacking openssl (1.1.1n-0+deb11u5) over (1.1.1n-0+deb11u4) ...
+Setting up openssl (1.1.1n-0+deb11u5) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Log ended: 2023-06-17  06:05:35
+
+Log started: 2023-06-17  06:05:47
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 30868 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.7.0-6+deb11u2_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.0-6+deb11u2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-5+deb11u1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../04-liblua5.3-0_5.3.3-1.1+b1_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.3-1.1+b1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../05-apache2-bin_2.4.56-1~deb11u2_amd64.deb ...
+Unpacking apache2-bin (2.4.56-1~deb11u2) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../06-apache2-data_2.4.56-1~deb11u2_all.deb ...
+Unpacking apache2-data (2.4.56-1~deb11u2) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../07-apache2-utils_2.4.56-1~deb11u2_amd64.deb ...
+Unpacking apache2-utils (2.4.56-1~deb11u2) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../08-mailcap_3.69_all.deb ...
+Unpacking mailcap (3.69) ...
+Selecting previously unselected package mime-support.
+Preparing to unpack .../09-mime-support_3.66_all.deb ...
+Unpacking mime-support (3.66) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../10-apache2_2.4.56-1~deb11u2_amd64.deb ...
+Unpacking apache2 (2.4.56-1~deb11u2) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../11-bzip2_1.0.8-4_amd64.deb ...
+Unpacking bzip2 (1.0.8-4) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../12-ssl-cert_1.1.0+nmu1_all.deb ...
+Unpacking ssl-cert (1.1.0+nmu1) ...
+Setting up libapr1:amd64 (1.7.0-6+deb11u2) ...
+Setting up bzip2 (1.0.8-4) ...
+Setting up ssl-cert (1.1.0+nmu1) ...
+Setting up liblua5.3-0:amd64 (5.3.3-1.1+b1) ...
+Setting up apache2-data (2.4.56-1~deb11u2) ...
+Setting up mailcap (3.69) ...
+Setting up libaprutil1:amd64 (1.6.1-5+deb11u1) ...
+Setting up mime-support (3.66) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-5+deb11u1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1) ...
+Setting up apache2-utils (2.4.56-1~deb11u2) ...
+Setting up apache2-bin (2.4.56-1~deb11u2) ...
+Setting up apache2 (2.4.56-1~deb11u2) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Log ended: 2023-06-17  06:05:51
+
+Log started: 2023-06-17  06:13:34
+Selecting previously unselected package libassuan0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31643 files and directories currently installed.)
+Preparing to unpack .../00-libassuan0_2.5.3-7.1_amd64.deb ...
+Unpacking libassuan0:amd64 (2.5.3-7.1) ...
+Selecting previously unselected package gpgconf.
+Preparing to unpack .../01-gpgconf_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpgconf (2.2.27-2+deb11u2) ...
+Selecting previously unselected package libksba8:amd64.
+Preparing to unpack .../02-libksba8_1.5.0-3+deb11u2_amd64.deb ...
+Unpacking libksba8:amd64 (1.5.0-3+deb11u2) ...
+Selecting previously unselected package libnpth0:amd64.
+Preparing to unpack .../03-libnpth0_1.6-3_amd64.deb ...
+Unpacking libnpth0:amd64 (1.6-3) ...
+Selecting previously unselected package dirmngr.
+Preparing to unpack .../04-dirmngr_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking dirmngr (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gnupg-l10n.
+Preparing to unpack .../05-gnupg-l10n_2.2.27-2+deb11u2_all.deb ...
+Unpacking gnupg-l10n (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gnupg-utils.
+Preparing to unpack .../06-gnupg-utils_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gnupg-utils (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gpg.
+Preparing to unpack .../07-gpg_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpg (2.2.27-2+deb11u2) ...
+Selecting previously unselected package pinentry-curses.
+Preparing to unpack .../08-pinentry-curses_1.1.0-4_amd64.deb ...
+Unpacking pinentry-curses (1.1.0-4) ...
+Selecting previously unselected package gpg-agent.
+Preparing to unpack .../09-gpg-agent_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpg-agent (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gpg-wks-client.
+Preparing to unpack .../10-gpg-wks-client_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpg-wks-client (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gpg-wks-server.
+Preparing to unpack .../11-gpg-wks-server_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpg-wks-server (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gpgsm.
+Preparing to unpack .../12-gpgsm_2.2.27-2+deb11u2_amd64.deb ...
+Unpacking gpgsm (2.2.27-2+deb11u2) ...
+Selecting previously unselected package gnupg.
+Preparing to unpack .../13-gnupg_2.2.27-2+deb11u2_all.deb ...
+Unpacking gnupg (2.2.27-2+deb11u2) ...
+Setting up libassuan0:amd64 (2.5.3-7.1) ...
+Setting up gpgconf (2.2.27-2+deb11u2) ...
+Setting up libksba8:amd64 (1.5.0-3+deb11u2) ...
+Setting up libnpth0:amd64 (1.6-3) ...
+Setting up dirmngr (2.2.27-2+deb11u2) ...
+Created symlink /etc/systemd/user/sockets.target.wants/dirmngr.socket → /usr/lib/systemd/user/dirmngr.socket.
+Setting up gnupg-l10n (2.2.27-2+deb11u2) ...
+Setting up gnupg-utils (2.2.27-2+deb11u2) ...
+Setting up gpg (2.2.27-2+deb11u2) ...
+Setting up pinentry-curses (1.1.0-4) ...
+Setting up gpg-agent (2.2.27-2+deb11u2) ...
+Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket → /usr/lib/systemd/user/gpg-agent-browser.socket.
+Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket → /usr/lib/systemd/user/gpg-agent-extra.socket.
+Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket → /usr/lib/systemd/user/gpg-agent-ssh.socket.
+Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent.socket → /usr/lib/systemd/user/gpg-agent.socket.
+Setting up gpg-wks-client (2.2.27-2+deb11u2) ...
+Setting up gpg-wks-server (2.2.27-2+deb11u2) ...
+Setting up gpgsm (2.2.27-2+deb11u2) ...
+Setting up gnupg (2.2.27-2+deb11u2) ...
+Selecting previously unselected package mysql-apt-config.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31894 files and directories currently installed.)
+Preparing to unpack .../mysql-apt-config_0.8.24-1_all.deb ...
+Unpacking mysql-apt-config (0.8.24-1) ...
+Setting up mysql-apt-config (0.8.24-1) ...
+[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[30m[47mMySQL Server & Cluster (Currently selected: mysql-8.0) [17;33H[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [17;33H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [18;33H[37m[41mMySQL Preview Packages (Currently selected: Disabled)  [18;33H[AMySQL Tools & Connectors (Currently selected: Enabled) [18;33H[30m[47mMySQL Preview Packages (Currently selected: Disabled)  [17;33H[A[37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [17;33H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [16;33H[?12l[?25h[29;1H[37m[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[?12l[?25h[29;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[30m[47mMySQL Server & Cluster (Currently selected: mysql-8.0) [17;33H[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [17;33H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [18;33H[37m[41mMySQL Preview Packages (Currently selected: Disabled)  [18;33H[30m[47mMySQL Preview Packages (Currently selected: Disabled)  [19;33H[37m[41mOk                                                     [19;33H[AMySQL Preview Packages (Currently selected: Disabled)  [19;33H[30m[47mOk                                                     [18;33H[A[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [18;33H[30m[47mMySQL Preview Packages (Currently selected: Disabled)  [17;33H[A[37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [17;33H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [16;33H[37m[44mMySQL Server & Cluster (Currently selected: mysql-8.0) [22;58H[41m<Ok>[22;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[37m[44mmysql-8.0         [20;58H[41m<Ok>[20;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[37m[44mMySQL Server & Cluster (Currently selected: mysql-8.0) [22;58H[41m<Ok>[22;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[37m[44mmysql-8.0         [20;58H[41m<Ok>[20;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[37m[44mMySQL Server & Cluster (Currently selected: mysql-8.0) [22;58H[41m<Ok>[22;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[37m[44mmysql-8.0         [20;58H[41m<Ok>[20;59H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[?12l[?25h[29;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[?12l[?25h[29;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[?12l[?25h[29;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[8;3H│ This configuration program has determined that mysql-8.0 is configured on your system, and has highlighted the   │[97m[40m [9;3H[30m[47m│ most appropriate repository package. If you are not sure which version to install, do not change the             │[97m[40m [10;3H[30m[47m│ auto-selected version. Advanced users can always change the version as needed later. Note that MySQL Cluster     │[97m[40m [11;3H[30m[47m│ also contains MySQL Server.                                                                                      │[97m[40m [12;3H[30m[47m│                                                                                                                  │[97m[40m [13;3H[30m[47m│ Which server version do you wish to receive?                                                                     │[97m[40m [14;3H[30m[47m│                                                                                                                  │[97m[40m [15;3H[30m[47m│                                                [37m[41mmysql-8.0         [30m[47m                                                │[97m[40m [16;3H[30m[47m│                                                mysql-cluster-8.0                                                 │[97m[40m [17;3H[30m[47m│                                                None                                                              │[97m[40m [18;3H[30m[47m│                                                                                                                  │[97m[40m [19;3H[30m[47m│                                                                                                                  │[97m[40m [20;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [23;4H                                                                                                                    [15;52H[?12l[?25h[29;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;29r[4l[?25l(B[m[37m[40m[1;29r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[6;3H[30m[47m┌─────────────────────────────────────────┤ [31mConfiguring mysql-apt-config[30m ├─────────────────────────────────────────┐[7;3H│ MySQL APT Repo features MySQL Server along with a variety of MySQL components. You may select the appropriate    │[97m[40m [8;3H[30m[47m│ product to choose the version that you wish to receive.                                                          │[97m[40m [9;3H[30m[47m│                                                                                                                  │[97m[40m [10;3H[30m[47m│ Once you are satisfied with the configuration then select last option 'Ok' to save the configuration, then run   │[97m[40m [11;3H[30m[47m│ 'apt-get update' to load package list. Advanced users can always change the configurations later, depending on   │[97m[40m [12;3H[30m[47m│ their own needs.                                                                                                 │[97m[40m [13;3H[30m[47m│                                                                                                                  │[97m[40m [14;3H[30m[47m│ Which MySQL product do you wish to configure?                                                                    │[97m[40m [15;3H[30m[47m│                                                                                                                  │[97m[40m [16;3H[30m[47m│                             [37m[41mMySQL Server & Cluster (Currently selected: mysql-8.0) [30m[47m                              │[97m[40m [17;3H[30m[47m│                             MySQL Tools & Connectors (Currently selected: Enabled)                               │[97m[40m [18;3H[30m[47m│                             MySQL Preview Packages (Currently selected: Disabled)                                │[97m[40m [19;3H[30m[47m│                             Ok                                                                                   │[97m[40m [20;3H[30m[47m│                                                                                                                  │[97m[40m [21;3H[30m[47m│                                                                                                                  │[97m[40m [22;3H[30m[47m│                                                      <Ok>                                                        │[97m[40m [23;3H[30m[47m│                                                                                                                  │[97m[40m [24;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;4H                                                                                                                    [16;33H[30m[47mMySQL Server & Cluster (Currently selected: mysql-8.0) [17;33H[37m[41mMySQL Tools & Connectors (Currently selected: Enabled) [17;33H[30m[47mMySQL Tools & Connectors (Currently selected: Enabled) [18;33H[37m[41mMySQL Preview Packages (Currently selected: Disabled)  [18;33H[30m[47mMySQL Preview Packages (Currently selected: Disabled)  [19;33H[37m[41mOk                                                     [19;33H[?12l[?25h[29;1H[40m(B[m[39;49m[K[?1049l[23;0;0tWarning: apt-key should not be used in scripts (called from postinst maintainerscript of the package mysql-apt-config)
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+OK
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Log ended: 2023-06-17  06:13:54
+
+Log started: 2023-06-17  06:15:12
+Selecting previously unselected package mysql-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31899 files and directories currently installed.)
+Preparing to unpack .../00-mysql-common_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-common (8.0.33-1debian11) ...
+Selecting previously unselected package mysql-community-client-plugins.
+Preparing to unpack .../01-mysql-community-client-plugins_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-community-client-plugins (8.0.33-1debian11) ...
+Selecting previously unselected package mysql-community-client-core.
+Preparing to unpack .../02-mysql-community-client-core_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-community-client-core (8.0.33-1debian11) ...
+Selecting previously unselected package mysql-community-client.
+Preparing to unpack .../03-mysql-community-client_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-community-client (8.0.33-1debian11) ...
+Selecting previously unselected package mysql-client.
+Preparing to unpack .../04-mysql-client_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-client (8.0.33-1debian11) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../05-libaio1_0.3.112-9_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.112-9) ...
+Selecting previously unselected package libmecab2:amd64.
+Preparing to unpack .../06-libmecab2_0.996-14+b4_amd64.deb ...
+Unpacking libmecab2:amd64 (0.996-14+b4) ...
+Selecting previously unselected package libnuma1:amd64.
+Preparing to unpack .../07-libnuma1_2.0.12-1+b1_amd64.deb ...
+Unpacking libnuma1:amd64 (2.0.12-1+b1) ...
+Selecting previously unselected package mysql-community-server-core.
+Preparing to unpack .../08-mysql-community-server-core_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-community-server-core (8.0.33-1debian11) ...
+Selecting previously unselected package psmisc.
+Preparing to unpack .../09-psmisc_23.4-2_amd64.deb ...
+Unpacking psmisc (23.4-2) ...
+Selecting previously unselected package mysql-community-server.
+Preparing to unpack .../10-mysql-community-server_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-community-server (8.0.33-1debian11) ...
+Selecting previously unselected package mecab-utils.
+Preparing to unpack .../11-mecab-utils_0.996-14+b4_amd64.deb ...
+Unpacking mecab-utils (0.996-14+b4) ...
+Selecting previously unselected package mecab-ipadic.
+Preparing to unpack .../12-mecab-ipadic_2.7.0-20070801+main-3_all.deb ...
+Unpacking mecab-ipadic (2.7.0-20070801+main-3) ...
+Selecting previously unselected package mecab-ipadic-utf8.
+Preparing to unpack .../13-mecab-ipadic-utf8_2.7.0-20070801+main-3_all.deb ...
+Unpacking mecab-ipadic-utf8 (2.7.0-20070801+main-3) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../14-mysql-server_8.0.33-1debian11_amd64.deb ...
+Unpacking mysql-server (8.0.33-1debian11) ...
+Setting up libmecab2:amd64 (0.996-14+b4) ...
+Setting up mysql-common (8.0.33-1debian11) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Setting up psmisc (23.4-2) ...
+Setting up mecab-utils (0.996-14+b4) ...
+Setting up libnuma1:amd64 (2.0.12-1+b1) ...
+Setting up mysql-community-client-plugins (8.0.33-1debian11) ...
+Setting up libaio1:amd64 (0.3.112-9) ...
+Setting up mecab-ipadic (2.7.0-20070801+main-3) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up mysql-community-client-core (8.0.33-1debian11) ...
+Setting up mysql-community-server-core (8.0.33-1debian11) ...
+Setting up mecab-ipadic-utf8 (2.7.0-20070801+main-3) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic-utf8 to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up mysql-community-client (8.0.33-1debian11) ...
+Setting up mysql-client (8.0.33-1debian11) ...
+Setting up mysql-community-server (8.0.33-1debian11) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+Setting up mysql-server (8.0.33-1debian11) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Log ended: 2023-06-17  06:15:36
+
+Log started: 2023-06-17  07:06:01
+Selecting previously unselected package php-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32340 files and directories currently installed.)
+Preparing to unpack .../0-php-common_2%3a76_all.deb ...
+Unpacking php-common (2:76) ...
+Selecting previously unselected package php7.4-common.
+Preparing to unpack .../1-php7.4-common_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-common (7.4.33-1+deb11u4) ...
+Selecting previously unselected package php7.4-json.
+Preparing to unpack .../2-php7.4-json_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-json (7.4.33-1+deb11u4) ...
+Selecting previously unselected package php7.4-opcache.
+Preparing to unpack .../3-php7.4-opcache_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-opcache (7.4.33-1+deb11u4) ...
+Selecting previously unselected package php7.4-readline.
+Preparing to unpack .../4-php7.4-readline_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-readline (7.4.33-1+deb11u4) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../5-libsodium23_1.0.18-1_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1) ...
+Selecting previously unselected package php7.4-cli.
+Preparing to unpack .../6-php7.4-cli_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-cli (7.4.33-1+deb11u4) ...
+Selecting previously unselected package libapache2-mod-php7.4.
+Preparing to unpack .../7-libapache2-mod-php7.4_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking libapache2-mod-php7.4 (7.4.33-1+deb11u4) ...
+Selecting previously unselected package php7.4.
+Preparing to unpack .../8-php7.4_7.4.33-1+deb11u4_all.deb ...
+Unpacking php7.4 (7.4.33-1+deb11u4) ...
+Selecting previously unselected package php.
+Preparing to unpack .../9-php_2%3a7.4+76_all.deb ...
+Unpacking php (2:7.4+76) ...
+Setting up php-common (2:76) ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+Setting up libsodium23:amd64 (1.0.18-1) ...
+Setting up php7.4-common (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ffi.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/tokenizer.ini with new version
+Setting up php7.4-readline (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/mods-available/readline.ini with new version
+Setting up php7.4-opcache (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/mods-available/opcache.ini with new version
+Setting up php7.4-json (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/mods-available/json.ini with new version
+Setting up php7.4-cli (7.4.33-1+deb11u4) ...
+update-alternatives: using /usr/bin/php7.4 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.4 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.4 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.4/cli/php.ini with new version
+Setting up libapache2-mod-php7.4 (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.4
+Setting up php7.4 (7.4.33-1+deb11u4) ...
+Setting up php (2:7.4+76) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u6) ...
+Processing triggers for php7.4-cli (7.4.33-1+deb11u4) ...
+Processing triggers for libapache2-mod-php7.4 (7.4.33-1+deb11u4) ...
+Log ended: 2023-06-17  07:06:18
+
+Log started: 2023-06-17  07:07:38
+Selecting previously unselected package php7.4-mysql.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32492 files and directories currently installed.)
+Preparing to unpack .../php7.4-mysql_7.4.33-1+deb11u4_amd64.deb ...
+Unpacking php7.4-mysql (7.4.33-1+deb11u4) ...
+Setting up php7.4-mysql (7.4.33-1+deb11u4) ...
+
+Creating config file /etc/php/7.4/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/pdo_mysql.ini with new version
+Processing triggers for libapache2-mod-php7.4 (7.4.33-1+deb11u4) ...
+Processing triggers for php7.4-cli (7.4.33-1+deb11u4) ...
+Log ended: 2023-06-17  07:07:39
+
+Log started: 2023-06-17  07:14:36
+Selecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 32505 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+Unpacking liberror-perl (0.17029-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.30.2-1+deb11u2_all.deb ...
+Unpacking git-man (1:2.30.2-1+deb11u2) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.30.2-1+deb11u2_amd64.deb ...
+Unpacking git (1:2.30.2-1+deb11u2) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../patch_2.7.6-7_amd64.deb ...
+Unpacking patch (2.7.6-7) ...
+Setting up liberror-perl (0.17029-1) ...
+Setting up patch (2.7.6-7) ...
+Setting up git-man (1:2.30.2-1+deb11u2) ...
+Setting up git (1:2.30.2-1+deb11u2) ...
+Processing triggers for man-db (2.9.4-2) ...
+Log ended: 2023-06-17  07:14:38

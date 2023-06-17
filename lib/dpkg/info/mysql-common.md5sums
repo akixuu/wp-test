@@ -1,0 +1,5 @@
+76d583d51e6e4421518799d591232210  usr/share/doc/mysql-common/LICENSE.gz
+bbb725ba3f71e671f2d3a78bcdc861e9  usr/share/doc/mysql-common/README
+28a468a4199d511d5e4a977d40b2dc4f  usr/share/doc/mysql-common/changelog.Debian.gz
+16afb6362b6c141d0ba2ecf6fc0bb7cf  usr/share/doc/mysql-common/copyright
+761f8979acb6d9c37305dd1bfe944c71  usr/share/lintian/overrides/mysql-common

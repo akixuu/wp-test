@@ -1,0 +1,20 @@
+Package: mysql-apt-config
+Version: 0.8.24-1
+Architecture: all
+Pre-depends: debconf (>= 0.2.17), dpkg (>= 1.15), lsb-release, wget, bash (>= 4.0), gnupg
+Homepage: http://dev.mysql.com/
+Maintainer: MySQL Release Engineering <mysql-build@oss.oracle.com>
+Installed-Size: 35
+Priority: optional
+Section: database
+Filename: pool/mysql-apt-config/m/mysql-apt-config/mysql-apt-config_0.8.24-1_all.deb
+Size: 18048
+SHA256: 26441c08ccc4b32ee8e2720319022436efb6b93a9bdca0fd9b4df163000a8e7d
+SHA1: 3667d2aeefcaf6d69ec35ab1053e3882d9139e35
+MD5sum: 9aaa5526ad7676baadcdee91982c861c
+Description: Auto configuration for MySQL APT Repo.
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+

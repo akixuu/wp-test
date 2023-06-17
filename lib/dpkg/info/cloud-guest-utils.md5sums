@@ -1,0 +1,8 @@
+01e1b7abb4daf22a8d78a5d60a30ff24  usr/bin/ec2metadata
+b77c28eeb345e0cdcd026e384eba1375  usr/bin/growpart
+ede59bbd830ca48e2763aec89a2660d5  usr/bin/vcs-run
+c33fbed41f6195b3cd81e54f860532a4  usr/share/doc/cloud-guest-utils/NEWS.Debian.gz
+488ece72bcf28ee2491cab75689e582e  usr/share/doc/cloud-guest-utils/changelog.Debian.gz
+f5c1f0eac51803e9ab8c9b05f186d6ec  usr/share/doc/cloud-guest-utils/changelog.gz
+3edfd58dd225946ebfd9d5d2534690cb  usr/share/doc/cloud-guest-utils/copyright
+0b46a0b0cbe3315c247999c18358a218  usr/share/man/man1/growpart.1.gz

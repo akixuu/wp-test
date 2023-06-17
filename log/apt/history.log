@@ -1,0 +1,35 @@
+
+Start-Date: 2023-06-17  06:05:34
+Commandline: apt upgrade
+Upgrade: libssl1.1:amd64 (1.1.1n-0+deb11u4, 1.1.1n-0+deb11u5), openssl:amd64 (1.1.1n-0+deb11u4, 1.1.1n-0+deb11u5)
+End-Date: 2023-06-17  06:05:35
+
+Start-Date: 2023-06-17  06:05:47
+Commandline: apt install apache2
+Install: ssl-cert:amd64 (1.1.0+nmu1, automatic), libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1, automatic), libapr1:amd64 (1.7.0-6+deb11u2, automatic), liblua5.3-0:amd64 (5.3.3-1.1+b1, automatic), bzip2:amd64 (1.0.8-4, automatic), apache2-data:amd64 (2.4.56-1~deb11u2, automatic), apache2-bin:amd64 (2.4.56-1~deb11u2, automatic), mailcap:amd64 (3.69, automatic), libaprutil1:amd64 (1.6.1-5+deb11u1, automatic), apache2-utils:amd64 (2.4.56-1~deb11u2, automatic), mime-support:amd64 (3.66, automatic), apache2:amd64 (2.4.56-1~deb11u2), libaprutil1-ldap:amd64 (1.6.1-5+deb11u1, automatic)
+End-Date: 2023-06-17  06:05:51
+
+Start-Date: 2023-06-17  06:13:34
+Commandline: apt install ./mysql-apt-config_0.8.24-1_all.deb
+Install: mysql-apt-config:amd64 (0.8.24-1), gpg:amd64 (2.2.27-2+deb11u2, automatic), gnupg:amd64 (2.2.27-2+deb11u2, automatic), gpg-wks-server:amd64 (2.2.27-2+deb11u2, automatic), gpg-agent:amd64 (2.2.27-2+deb11u2, automatic), libassuan0:amd64 (2.5.3-7.1, automatic), libnpth0:amd64 (1.6-3, automatic), pinentry-curses:amd64 (1.1.0-4, automatic), gpgsm:amd64 (2.2.27-2+deb11u2, automatic), dirmngr:amd64 (2.2.27-2+deb11u2, automatic), libksba8:amd64 (1.5.0-3+deb11u2, automatic), gnupg-utils:amd64 (2.2.27-2+deb11u2, automatic), gnupg-l10n:amd64 (2.2.27-2+deb11u2, automatic), gpg-wks-client:amd64 (2.2.27-2+deb11u2, automatic), gpgconf:amd64 (2.2.27-2+deb11u2, automatic)
+End-Date: 2023-06-17  06:13:54
+
+Start-Date: 2023-06-17  06:15:12
+Commandline: apt install mysql-server
+Install: mysql-community-client-plugins:amd64 (8.0.33-1debian11, automatic), libaio1:amd64 (0.3.112-9, automatic), mysql-community-client:amd64 (8.0.33-1debian11, automatic), mysql-common:amd64 (8.0.33-1debian11, automatic), mysql-community-client-core:amd64 (8.0.33-1debian11, automatic), libnuma1:amd64 (2.0.12-1+b1, automatic), mysql-client:amd64 (8.0.33-1debian11, automatic), psmisc:amd64 (23.4-2, automatic), mysql-community-server:amd64 (8.0.33-1debian11, automatic), mecab-ipadic-utf8:amd64 (2.7.0-20070801+main-3, automatic), mysql-community-server-core:amd64 (8.0.33-1debian11, automatic), mecab-ipadic:amd64 (2.7.0-20070801+main-3, automatic), libmecab2:amd64 (0.996-14+b4, automatic), mysql-server:amd64 (8.0.33-1debian11), mecab-utils:amd64 (0.996-14+b4, automatic)
+End-Date: 2023-06-17  06:15:36
+
+Start-Date: 2023-06-17  07:06:01
+Commandline: apt-get install php
+Install: php7.4-readline:amd64 (7.4.33-1+deb11u4, automatic), php:amd64 (2:7.4+76), php7.4-opcache:amd64 (7.4.33-1+deb11u4, automatic), php-common:amd64 (2:76, automatic), libapache2-mod-php7.4:amd64 (7.4.33-1+deb11u4, automatic), php7.4:amd64 (7.4.33-1+deb11u4, automatic), php7.4-cli:amd64 (7.4.33-1+deb11u4, automatic), php7.4-json:amd64 (7.4.33-1+deb11u4, automatic), libsodium23:amd64 (1.0.18-1, automatic), php7.4-common:amd64 (7.4.33-1+deb11u4, automatic)
+End-Date: 2023-06-17  07:06:18
+
+Start-Date: 2023-06-17  07:07:38
+Commandline: apt-get install php-mysqli
+Install: php7.4-mysql:amd64 (7.4.33-1+deb11u4)
+End-Date: 2023-06-17  07:07:39
+
+Start-Date: 2023-06-17  07:14:36
+Commandline: apt install git
+Install: git:amd64 (1:2.30.2-1+deb11u2), patch:amd64 (2.7.6-7, automatic), liberror-perl:amd64 (0.17029-1, automatic), git-man:amd64 (1:2.30.2-1+deb11u2, automatic)
+End-Date: 2023-06-17  07:14:38

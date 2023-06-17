@@ -1,0 +1,164 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: MySQL
+Label: MySQL
+Codename: bullseye
+Date: Sat, 15 Apr 2023 04:51:26 UTC
+Architectures: i386 amd64
+Components: mysql-apt-config mysql-8.0 mysql-cluster-8.0 mysql-tools mysql-tools-preview
+Description: Apt repository for Oracle MySQL packages
+MD5Sum:
+ e3fbbc7c75d88de3ffd74dcbe9aa21ad 856 mysql-apt-config/binary-i386/Packages
+ 9f9f76b5afd3337e6729de484c511d50 565 mysql-apt-config/binary-i386/Packages.gz
+ 179171322469f436e58ff9e00865254d 128 mysql-apt-config/binary-i386/Release
+ e3fbbc7c75d88de3ffd74dcbe9aa21ad 856 mysql-apt-config/binary-amd64/Packages
+ 9f9f76b5afd3337e6729de484c511d50 565 mysql-apt-config/binary-amd64/Packages.gz
+ f8861d04c6233295bc05d12af489120b 129 mysql-apt-config/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-apt-config/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-apt-config/source/Sources.gz
+ af4947c8ef004a7455ff9c26e3f53b5a 130 mysql-apt-config/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-8.0/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-8.0/binary-i386/Packages.gz
+ ec4010b09fbc92173b9f13ed9c3bbe92 121 mysql-8.0/binary-i386/Release
+ b75f9a653054fb0ecf56234affa73230 30573 mysql-8.0/binary-amd64/Packages
+ a1787d0696bc4fd6cb669c75585b6c4c 8596 mysql-8.0/binary-amd64/Packages.gz
+ 51d8983d6792b49954510bec836ef4a2 122 mysql-8.0/binary-amd64/Release
+ fba0ea3c5c6705ba6373fff674134b59 2667 mysql-8.0/source/Sources
+ 2d649a99f2e7593f18a325799abf5c20 950 mysql-8.0/source/Sources.gz
+ 7970fa9050b58024a38a481dea775f44 123 mysql-8.0/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-cluster-8.0/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-cluster-8.0/binary-i386/Packages.gz
+ 79a7adae6b416976dbb10774efff468c 129 mysql-cluster-8.0/binary-i386/Release
+ 2fa4d3ea1c13cdd6c28ada419bdea846 40974 mysql-cluster-8.0/binary-amd64/Packages
+ 1c647449dadfa4f62a67b1f18f36fc36 11263 mysql-cluster-8.0/binary-amd64/Packages.gz
+ a7bd6d27aebc835d6e8948d57538ae55 130 mysql-cluster-8.0/binary-amd64/Release
+ fd6beab03c2ae0132df02a5871fed175 3681 mysql-cluster-8.0/source/Sources
+ 44ebaf006da820bcddc2efafa916a332 1048 mysql-cluster-8.0/source/Sources.gz
+ b49b6250a6eb554c379ba95da72cebbe 131 mysql-cluster-8.0/source/Release
+ 0c7dc7edc7fa5751ee0be3a59a02de04 719 mysql-tools/binary-i386/Packages
+ 6536e04b054bf8918a77e8e6053c4e21 454 mysql-tools/binary-i386/Packages.gz
+ 374831938e0d26fb9d981f52e61dce55 123 mysql-tools/binary-i386/Release
+ 3a6edb4bf55199a5bff3387735e29dbd 21166 mysql-tools/binary-amd64/Packages
+ 3a87f282eb30c7310b8df28c99f01a0b 7932 mysql-tools/binary-amd64/Packages.gz
+ 95b190d138df0ae965cd1fb25f23ee68 124 mysql-tools/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-tools/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-tools/source/Sources.gz
+ acb0f73e5b6d8bad57def81707d1d576 125 mysql-tools/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-tools-preview/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-tools-preview/binary-i386/Packages.gz
+ 307436e97c27010fa9a4e60b5bdbc4f9 131 mysql-tools-preview/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-tools-preview/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-tools-preview/binary-amd64/Packages.gz
+ 3ffc380b1e8bb62ae67bc055386bf259 132 mysql-tools-preview/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 mysql-tools-preview/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 mysql-tools-preview/source/Sources.gz
+ 59438cebc8d98cb9c7b684de0b415989 133 mysql-tools-preview/source/Release
+SHA1:
+ 51e9f634d0a6a111dab58c82b5ca9e62c3639fe9 856 mysql-apt-config/binary-i386/Packages
+ 8dbe1eb66c9820781d4bf37f6a8b061bc60577e3 565 mysql-apt-config/binary-i386/Packages.gz
+ 15c0ed064989e2c3127a99cb41e7471fc2bc436f 128 mysql-apt-config/binary-i386/Release
+ 51e9f634d0a6a111dab58c82b5ca9e62c3639fe9 856 mysql-apt-config/binary-amd64/Packages
+ 8dbe1eb66c9820781d4bf37f6a8b061bc60577e3 565 mysql-apt-config/binary-amd64/Packages.gz
+ 69029e5c84a445545ff7723f3bb7c07f161d7419 129 mysql-apt-config/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-apt-config/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-apt-config/source/Sources.gz
+ de1e249bb8f648f054f0eb795aa85288e0978459 130 mysql-apt-config/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-8.0/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-8.0/binary-i386/Packages.gz
+ 5563b3de8683d64e0d46833210ace17536b68fc3 121 mysql-8.0/binary-i386/Release
+ eb53360006756bf5698153d128ba93d42724706d 30573 mysql-8.0/binary-amd64/Packages
+ 32683051f269f34c74c486d28a991ccb4166011c 8596 mysql-8.0/binary-amd64/Packages.gz
+ fcd4e7ba76ce49b04b8c6a6412e74f61c34283cb 122 mysql-8.0/binary-amd64/Release
+ 3d19300f1a5595acc67492e4d4f99013ad19a812 2667 mysql-8.0/source/Sources
+ 26e91eff00248e8aa9fdf97d6301ddb7bba78390 950 mysql-8.0/source/Sources.gz
+ edadbb4e5945a49797f458de63bc1808e03cf66e 123 mysql-8.0/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-cluster-8.0/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-cluster-8.0/binary-i386/Packages.gz
+ 73ad3fbd0bdb21e57ea582d6399fb1959f839e91 129 mysql-cluster-8.0/binary-i386/Release
+ 390926cefac2da5898f2c15ddf09795d6ee49c98 40974 mysql-cluster-8.0/binary-amd64/Packages
+ 254950d29c1cd65cb91bb3056dedb9e01c365dac 11263 mysql-cluster-8.0/binary-amd64/Packages.gz
+ cfbe07303d8d7c070f38849b74a98d59a2f5ebd9 130 mysql-cluster-8.0/binary-amd64/Release
+ 79de3432dc4599a14c4f1ca35d0c63e2319e347a 3681 mysql-cluster-8.0/source/Sources
+ d29003d39cb9279bbb3898f3b4ba51da5936b53d 1048 mysql-cluster-8.0/source/Sources.gz
+ dfe4621fa285116cfc2a00b19ee3d826c6385ed8 131 mysql-cluster-8.0/source/Release
+ e5c3366620e4234a9fbd05220ab6623f29712f71 719 mysql-tools/binary-i386/Packages
+ 9120d78a70ddfc68bbba0ed8c879764aa137fa98 454 mysql-tools/binary-i386/Packages.gz
+ 4c746bc0736f275b7f538ef19993ad86a24d583b 123 mysql-tools/binary-i386/Release
+ a6605bf42c6f8c3abfcbf36e7367a3e988ed9d85 21166 mysql-tools/binary-amd64/Packages
+ 4da47e13b06771272c30a2d94f750456d4b606b1 7932 mysql-tools/binary-amd64/Packages.gz
+ fe08b1fd7b1652143826050bc1e5df6245354642 124 mysql-tools/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-tools/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-tools/source/Sources.gz
+ 40c64853aa8b237ac4d1ee10a91a0c3b00259eef 125 mysql-tools/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-tools-preview/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-tools-preview/binary-i386/Packages.gz
+ 2bd3a8df271d1c432c3956150489c0ca2aff2f1d 131 mysql-tools-preview/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-tools-preview/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-tools-preview/binary-amd64/Packages.gz
+ df109b7d6debd8c83967f064d83f305a3d980ad3 132 mysql-tools-preview/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 mysql-tools-preview/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 mysql-tools-preview/source/Sources.gz
+ fb8509bbc021cc9744f514007f9a3edafbc255e9 133 mysql-tools-preview/source/Release
+SHA256:
+ 6763a1abbe5442cff735520a8735a124fc4067465191d10c9d6f735df0f6b0bb 856 mysql-apt-config/binary-i386/Packages
+ fb1344e4ca54b71d0bc3bb866fe78ec75656c352f0e7910a878b8bb00e470819 565 mysql-apt-config/binary-i386/Packages.gz
+ b4bf2cbc97d1cfc67fe55bd85fe059ebb119ee5d1d3219d090ed21134e1c53b3 128 mysql-apt-config/binary-i386/Release
+ 6763a1abbe5442cff735520a8735a124fc4067465191d10c9d6f735df0f6b0bb 856 mysql-apt-config/binary-amd64/Packages
+ fb1344e4ca54b71d0bc3bb866fe78ec75656c352f0e7910a878b8bb00e470819 565 mysql-apt-config/binary-amd64/Packages.gz
+ 0c1f2e9b8476464e6073264a5c674cd3a8f73f229f6d6eb9b5382d2a0964ad7d 129 mysql-apt-config/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-apt-config/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-apt-config/source/Sources.gz
+ 6c95815fe8a609d96aa29e6d11ab9764d40d1aab981f8397362dd248a0d63b67 130 mysql-apt-config/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-8.0/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-8.0/binary-i386/Packages.gz
+ c7120b9e8437f97d58cbe963fdcbbb45801b6d44b4d44ddbb4ac39e32a290d16 121 mysql-8.0/binary-i386/Release
+ 0d00f92bcb57431acf9c4e576bd3e08b8f9bc59f12c48c979d9b633fcbe31ffd 30573 mysql-8.0/binary-amd64/Packages
+ 6aff4794411e55dad358ceba839c2ef275e6e0618dfe6e940b5750cf5f305283 8596 mysql-8.0/binary-amd64/Packages.gz
+ 80a6100f7e97b87ef401b9482d40c62ab5abf89178f3886f2bb28727f64f3ca7 122 mysql-8.0/binary-amd64/Release
+ a7dbc06ea9c836341e6a10b0329067aa7cbd17c0a846bd39164c537c455c0c45 2667 mysql-8.0/source/Sources
+ f4513ac3e317cc2ff64727dce0bf162a9f10aa07897a0080d871b720777e96ad 950 mysql-8.0/source/Sources.gz
+ 21e7a03e22c6bf20030ee939f0c5c4a75ad7539362d6c8e99bac8e25a66cbded 123 mysql-8.0/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-cluster-8.0/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-cluster-8.0/binary-i386/Packages.gz
+ d91e1e10a9c90fd4afcb61f8d334624620697c4c10ff8e864c2f7e83b49b41a7 129 mysql-cluster-8.0/binary-i386/Release
+ b65ce44ab097b57db557e86b070447c721cc5be4d155a2cb7397ba9419e4b76e 40974 mysql-cluster-8.0/binary-amd64/Packages
+ faa3ad5b158f63271e559b63ccfdb80ca9830ce503c761958120dd210ff51090 11263 mysql-cluster-8.0/binary-amd64/Packages.gz
+ 5b053c8776d530113558653b54f980e85168afc9b90b46ea6e708aca91d61094 130 mysql-cluster-8.0/binary-amd64/Release
+ 7c1bd55b14b27a427f49fc102cb5a183a36745533d21714b2191ce21b61c16cb 3681 mysql-cluster-8.0/source/Sources
+ 4630dab0854fbd446e641fac12a779f2b61310852442bae12f8599a42bfd6b10 1048 mysql-cluster-8.0/source/Sources.gz
+ 765840ce115ef615b26da499c778a1dee1760c9a2a0bd6f2d8e6953c5ad6d2a3 131 mysql-cluster-8.0/source/Release
+ 70a8d1ecf44c085cee0f4665c727b9a6f80277233efc21859804866c84ecdb3c 719 mysql-tools/binary-i386/Packages
+ 044be2e31cc134a8bb794440c9d07538bce08d3b4fd8529f70d22bbddf4865ce 454 mysql-tools/binary-i386/Packages.gz
+ 0e7137e64ffe3daa77b7ade34834c73cd060f740e3da54d0f564caf450203df0 123 mysql-tools/binary-i386/Release
+ 9fa95ff03dd1e58a4bc447cb283fbf02e89cc26e948d8221dd13d6dd30c0ffc6 21166 mysql-tools/binary-amd64/Packages
+ b1db10493826e7eeaed5af3b412aada466ba9fc0b608975d790027b9d53cfd6c 7932 mysql-tools/binary-amd64/Packages.gz
+ ed4beec6e219fc8cd744d8f089797b347521043640a0aac77bb8cabf2c8b928f 124 mysql-tools/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-tools/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-tools/source/Sources.gz
+ b41291cc8eca85b87745460df92f3c4866f4dd4cab48a0f7d6367b2d8c1326a0 125 mysql-tools/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-tools-preview/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-tools-preview/binary-i386/Packages.gz
+ edb9ef2fd8b5a51f91e1ad4e5ffa8e3cbdd6aa7777f8df407353272d49a9f42e 131 mysql-tools-preview/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-tools-preview/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-tools-preview/binary-amd64/Packages.gz
+ ac5743b84299d31a1e5035d71cebcb23b5da72600357652fe6c55cf4ad8108b3 132 mysql-tools-preview/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 mysql-tools-preview/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 mysql-tools-preview/source/Sources.gz
+ ce1058933754ad146e4d8d5cac401782e9220f03c7d593542e87400414f1d57b 133 mysql-tools-preview/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEhZvo18WG9ThDCxnCRnuULTp5vSkFAmQ6LU8ACgkQRnuULTp5
+vSnJWg//UfYkDLpfNtEb45DhYqF2JxGPieCGwFXBMEnZHbihR2h9D6xwYulpUk3W
+vQZ2KEbZzgjZFQpWycZy8h60kzaXrS1rnwty6slu4l6hNIpEESjHs2kavGZfcvV6
+fjFvACi3G8GHf5DTd17ajn2eK85FHNkAtRBcOE2KwPkZwnlDnXdO3wn25U4bAFcr
+CNwLfjtnQsd3N83QsSQ110dKuRYkQgmAW9jnQt36HjU08vIQFk0fVrTH5Cbqtu0U
+ULlhrU+Nv+4EUokkizJlPnp3+j2x4xc+uh1sME0vqLAjQvZjO666NVj++h+VGEF6
+qsSbgXnFF6xknajCc3jeQC2JoH19hwGLq7ktwp8yln+YA9iWWTDIkUnJ+AShmywp
+G0ypLbOJ6ngRpue2w+/kQs5rE64WcHwHJ7I2KhoUN5pDNj5yyLCZErIGsAv2Qx+S
+TeqjeErgYMZXrcp+Yh0B4iLmjmC21J1rMK2CJsCPgBfHueA1faQUCUvBEbaAOWqU
+DkuaOXACCfsA+LzeHHUTAdSvnkSLczlpxpQRsohbGei5iGzUaR+qcZ/Ub7DLVtgl
+b0c6rTunjJamq7pfkvfXvhxUjyj5ukR4lEM06E+GIAb1LMf/P9QaV3m/UIO+Rx/2
+AdpS1P4m8r3Nnd5wT75wDnduDqikUmfxT96h0iYhrfc1FPFlP5k=
+=fau6
+-----END PGP SIGNATURE-----

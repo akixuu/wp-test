@@ -1,0 +1,9 @@
+00a1c06fce863a6f89a68d06583d5b86  usr/lib/mysql/plugin/authentication_fido_client.so
+192a829fe40ccd853a06d1e214c656a2  usr/lib/mysql/plugin/authentication_kerberos_client.so
+afa32caf9e769f3cc2732c4a498de68d  usr/lib/mysql/plugin/authentication_ldap_sasl_client.so
+83863f9674a59a0ca01709d36e771388  usr/lib/mysql/plugin/authentication_oci_client.so
+fc50016403f6cc72548b63444fd8b386  usr/lib/mysql/private/libfido2.so.1.8.0
+76d583d51e6e4421518799d591232210  usr/share/doc/mysql-community-client-plugins/LICENSE.gz
+bbb725ba3f71e671f2d3a78bcdc861e9  usr/share/doc/mysql-community-client-plugins/README
+28a468a4199d511d5e4a977d40b2dc4f  usr/share/doc/mysql-community-client-plugins/changelog.Debian.gz
+16afb6362b6c141d0ba2ecf6fc0bb7cf  usr/share/doc/mysql-community-client-plugins/copyright

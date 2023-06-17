@@ -1,0 +1,498 @@
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating group systemd-timesync with gid 999.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating user systemd-timesync (systemd Time Synchronization) with uid 999 and gid 999.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating group systemd-coredump with gid 998.
+Jun 17 05:51:01 localhost systemd-sysusers[231]: Creating user systemd-coredump (systemd Core Dumper) with uid 998 and gid 998.
+Jun 17 05:51:01 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun 17 05:51:01 localhost systemd[1]: Finished Create System Users.
+Jun 17 05:51:01 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+Jun 17 05:51:01 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Local File Systems (Pre).
+Jun 17 05:51:01 localhost systemd[1]: Reached target Local File Systems.
+Jun 17 05:51:01 localhost systemd[1]: Starting Load AppArmor profiles...
+Jun 17 05:51:01 localhost systemd[1]: Starting Set console font and keymap...
+Jun 17 05:51:01 localhost systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jun 17 05:51:01 localhost systemd[1]: Starting Commit a transient machine-id on disk...
+Jun 17 05:51:01 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Jun 17 05:51:01 localhost systemd[1]: Finished Set console font and keymap.
+Jun 17 05:51:01 localhost systemd[1]: Finished Flush Journal to Persistent Storage.
+Jun 17 05:51:01 localhost systemd[1]: Starting Create Volatile Files and Directories...
+Jun 17 05:51:01 localhost systemd[1]: etc-machine\x2did.mount: Succeeded.
+Jun 17 05:51:01 localhost systemd[1]: Finished Commit a transient machine-id on disk.
+Jun 17 05:51:01 localhost apparmor.systemd[237]: Restarting AppArmor
+Jun 17 05:51:01 localhost apparmor.systemd[237]: Reloading AppArmor profiles
+Jun 17 05:51:01 localhost systemd-udevd[243]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jun 17 05:51:01 localhost systemd[1]: Finished Create Volatile Files and Directories.
+Jun 17 05:51:01 localhost systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 17 05:51:01 localhost systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Jun 17 05:51:01 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+Jun 17 05:51:01 localhost systemd-udevd[259]: Using default interface naming scheme 'v247'.
+Jun 17 05:51:01 localhost systemd[1]: Found device /dev/ttyS0.
+Jun 17 05:51:01 localhost systemd[1]: Found device Virtio network device.
+Jun 17 05:51:01 localhost systemd[1]: Found device QEMU_HARDDISK.
+Jun 17 05:51:01 localhost systemd[1]: Activating swap /dev/sdb...
+Jun 17 05:51:01 localhost systemd[1]: Finished Load AppArmor profiles.
+Jun 17 05:51:01 localhost systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+Jun 17 05:51:01 localhost systemd[1]: Started ifup for eth0.
+Jun 17 05:51:01 localhost systemd[1]: Activated swap /dev/sdb.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Swap.
+Jun 17 05:51:01 localhost systemd[1]: Reached target System Initialization.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun 17 05:51:01 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Sockets.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Basic System.
+Jun 17 05:51:01 localhost systemd[1]: Started Regular background program processing daemon.
+Jun 17 05:51:01 localhost systemd[1]: Started D-Bus System Message Bus.
+Jun 17 05:51:01 localhost systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Jun 17 05:51:01 localhost systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jun 17 05:51:01 localhost systemd[1]: Starting System Logging Service...
+Jun 17 05:51:01 localhost systemd[1]: Starting Resets System Activity Logs...
+Jun 17 05:51:01 localhost systemd[1]: Starting User Login Management...
+Jun 17 05:51:01 localhost haveged[350]: haveged: command socket is listening at fd 3
+Jun 17 05:51:01 localhost systemd[1]: Started System Logging Service.
+Jun 17 05:51:01 localhost systemd[1]: Finished Resets System Activity Logs.
+Jun 17 05:51:01 localhost systemd[1]: Started User Login Management.
+Jun 17 05:51:01 localhost sh[466]: eth0=eth0
+Jun 17 05:51:01 localhost systemd[1]: e2scrub_reap.service: Succeeded.
+Jun 17 05:51:01 localhost systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Jun 17 05:51:01 localhost systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Jun 17 05:51:01 localhost systemd[1]: Starting Raise network interfaces...
+Jun 17 05:51:01 localhost systemd[1]: Finished Raise network interfaces.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Network.
+Jun 17 05:51:01 localhost systemd[1]: Starting chrony, an NTP client/server...
+Jun 17 05:51:01 localhost systemd[1]: Starting OpenBSD Secure Shell server...
+Jun 17 05:51:01 localhost systemd[1]: Starting Permit User Sessions...
+Jun 17 05:51:01 localhost systemd[1]: Finished Permit User Sessions.
+Jun 17 05:51:01 localhost systemd[1]: Started Getty on tty1.
+Jun 17 05:51:01 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Login Prompts.
+Jun 17 05:51:01 localhost haveged[350]: haveged: ver: 1.9.14; arch: x86; vend: ; build: (gcc 10.2.1 ITV); collect: 128K
+Jun 17 05:51:01 localhost haveged[350]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 54019/54019
+Jun 17 05:51:01 localhost haveged[350]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00415
+Jun 17 05:51:01 localhost haveged[350]: haveged: fills: 0, generated: 0
+Jun 17 05:51:01 localhost chronyd[492]: chronyd version 4.0 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+Jun 17 05:51:01 localhost chronyd[492]: Using right/UTC timezone to obtain leap second data
+Jun 17 05:51:01 localhost chronyd[492]: Loaded seccomp filter
+Jun 17 05:51:01 localhost systemd[1]: Started chrony, an NTP client/server.
+Jun 17 05:51:01 localhost systemd[1]: Reached target System Time Synchronized.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily apt download activities.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 17 05:51:01 localhost systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 05:51:01 localhost systemd[1]: Started Discard unused blocks once a week.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily rotation of log files.
+Jun 17 05:51:01 localhost systemd[1]: Started Daily man-db regeneration.
+Jun 17 05:51:01 localhost systemd[1]: Started Run system activity accounting tool every 10 minutes.
+Jun 17 05:51:01 localhost systemd[1]: Started Generate summary of yesterday's process accounting.
+Jun 17 05:51:01 localhost systemd[1]: Reached target Timers.
+Jun 17 05:51:02 localhost ssh-keygen[485]: ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519
+Jun 17 05:51:02 localhost systemd[1]: Started OpenBSD Secure Shell server.
+Jun 17 05:51:02 localhost systemd[1]: Reached target Multi-User System.
+Jun 17 05:51:02 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jun 17 05:51:02 localhost systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jun 17 05:51:02 localhost systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Jun 17 05:51:02 localhost systemd[1]: Startup finished in 2.349s (kernel) + 2.115s (userspace) = 4.465s.
+Jun 17 05:51:06 localhost chronyd[492]: Selected source 132.246.11.237 (2.debian.pool.ntp.org)
+Jun 17 05:51:06 localhost chronyd[492]: System clock TAI offset set to 37 seconds
+Jun 17 06:00:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:00:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:00:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:04:47 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:04:47 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:04:47 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:04:47 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:04:47 localhost systemd[508]: Queued start job for default target Main User Target.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Paths.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Sockets.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Timers.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Basic System.
+Jun 17 06:04:47 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:04:47 localhost systemd[1]: Started Session 2 of user root.
+Jun 17 06:04:47 localhost systemd[508]: Reached target Main User Target.
+Jun 17 06:04:47 localhost systemd[508]: Startup finished in 47ms.
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:49 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 06:05:50 localhost apachectl[1691]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 06:05:50 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Starting Disk Cache Cleaning Daemon for Apache HTTP Server...
+Jun 17 06:05:50 localhost systemd[1]: Started Disk Cache Cleaning Daemon for Apache HTTP Server.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:05:50 localhost systemd[1]: Reloading.
+Jun 17 06:06:11 localhost systemd[1]: serial-getty@ttyS0.service: Succeeded.
+Jun 17 06:06:11 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 17 06:06:11 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jun 17 06:06:11 localhost systemd[1]: Finished Cleanup of Temporary Directories.
+Jun 17 06:06:12 localhost systemd[1]: serial-getty@ttyS0.service: Scheduled restart job, restart counter is at 1.
+Jun 17 06:06:12 localhost systemd[1]: Stopped Serial Getty on ttyS0.
+Jun 17 06:06:12 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 06:10:31 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:10:31 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:10:31 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:15:34 localhost systemd[1]: Reloading.
+Jun 17 06:15:34 localhost systemd[1]: Reloading.
+Jun 17 06:15:35 localhost systemd[1]: Reached target Network is Online.
+Jun 17 06:15:35 localhost systemd[1]: Starting MySQL Community Server...
+Jun 17 06:15:35 localhost systemd[1]: Started MySQL Community Server.
+Jun 17 06:15:35 localhost systemd[1]: Reloading.
+Jun 17 06:20:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:20:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:20:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:26:02 localhost systemd[1]: session-2.scope: Succeeded.
+Jun 17 06:26:02 localhost systemd[1]: session-2.scope: Consumed 39.302s CPU time.
+Jun 17 06:26:13 localhost systemd[1]: Stopping User Manager for UID 0...
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Main User Target.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Basic System.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Paths.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Sockets.
+Jun 17 06:26:13 localhost systemd[508]: Reached target Shutdown.
+Jun 17 06:26:13 localhost systemd[508]: Stopped target Timers.
+Jun 17 06:26:13 localhost systemd[508]: systemd-exit.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[508]: Finished Exit the Session.
+Jun 17 06:26:13 localhost systemd[508]: Reached target Exit the Session.
+Jun 17 06:26:13 localhost systemd[1]: user@0.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: Stopped User Manager for UID 0.
+Jun 17 06:26:13 localhost systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jun 17 06:26:13 localhost systemd[1]: run-user-0.mount: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: user-runtime-dir@0.service: Succeeded.
+Jun 17 06:26:13 localhost systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jun 17 06:26:13 localhost systemd[1]: Removed slice User Slice of UID 0.
+Jun 17 06:26:13 localhost systemd[1]: user-0.slice: Consumed 39.342s CPU time.
+Jun 17 06:27:06 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:27:06 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:27:06 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:27:06 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:27:06 localhost systemd[4281]: Queued start job for default target Main User Target.
+Jun 17 06:27:06 localhost systemd[4281]: Created slice User Application Slice.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Paths.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Timers.
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG network certificate management daemon.
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun 17 06:27:06 localhost systemd[4281]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Sockets.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Basic System.
+Jun 17 06:27:06 localhost systemd[4281]: Reached target Main User Target.
+Jun 17 06:27:06 localhost systemd[4281]: Startup finished in 35ms.
+Jun 17 06:27:06 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:27:06 localhost systemd[1]: Started Session 9 of user root.
+Jun 17 06:30:29 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:30:29 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:30:29 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:31:34 localhost systemd[1]: Stopping Session 9 of user root.
+Jun 17 06:31:34 localhost systemd[1]: Removed slice system-modprobe.slice.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Multi-User System.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Login Prompts.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target Timers.
+Jun 17 06:31:34 localhost systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jun 17 06:31:34 localhost systemd[1]: apt-daily.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily apt download activities.
+Jun 17 06:31:34 localhost systemd[1]: e2scrub_all.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 06:31:34 localhost systemd[1]: fstrim.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Discard unused blocks once a week.
+Jun 17 06:31:34 localhost systemd[1]: logrotate.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily rotation of log files.
+Jun 17 06:31:34 localhost systemd[1]: man-db.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily man-db regeneration.
+Jun 17 06:31:34 localhost systemd[1]: sysstat-collect.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Run system activity accounting tool every 10 minutes.
+Jun 17 06:31:34 localhost systemd[1]: sysstat-summary.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Generate summary of yesterday's process accounting.
+Jun 17 06:31:34 localhost systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Jun 17 06:31:34 localhost systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target System Time Synchronized.
+Jun 17 06:31:34 localhost systemd[1]: Stopped target System Time Set.
+Jun 17 06:31:34 localhost systemd[1]: Stopping Disk Cache Cleaning Daemon for Apache HTTP Server...
+Jun 17 06:31:34 localhost chronyd[492]: chronyd exiting
+Jun 17 06:31:34 localhost systemd[1]: Stopping chrony, an NTP client/server...
+Jun 17 06:31:34 localhost systemd[1]: Stopping Regular background program processing daemon...
+Jun 17 06:31:34 localhost systemd[1]: Stopping Getty on tty1...
+Jun 17 06:31:34 localhost systemd[1]: Stopping MySQL Community Server...
+Jun 17 06:39:18 localhost systemd[1]: Mounted FUSE Control File System.
+Jun 17 06:39:18 localhost systemd[1]: Finished Set the console keyboard layout.
+Jun 17 06:39:18 localhost systemd[1]: Mounted Kernel Configuration File System.
+Jun 17 06:39:18 localhost systemd[1]: Finished Load/Save Random Seed.
+Jun 17 06:39:18 localhost systemd[1]: Finished Coldplug All udev Devices.
+Jun 17 06:39:18 localhost systemd[1]: Finished Apply Kernel Variables.
+Jun 17 06:39:18 localhost systemd[1]: Finished Create System Users.
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Jun 17 06:39:18 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Jun 17 06:39:18 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+Jun 17 06:39:18 localhost systemd[1]: Finished Create Static Device Nodes in /dev.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Local File Systems (Pre).
+Jun 17 06:39:18 localhost apparmor.systemd[236]: Restarting AppArmor
+Jun 17 06:39:18 localhost apparmor.systemd[236]: Reloading AppArmor profiles
+Jun 17 06:39:18 localhost systemd[1]: Reached target Local File Systems.
+Jun 17 06:39:18 localhost systemd[1]: Starting Load AppArmor profiles...
+Jun 17 06:39:18 localhost systemd[1]: Starting Set console font and keymap...
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Jun 17 06:39:18 localhost systemd[1]: Finished Set console font and keymap.
+Jun 17 06:39:18 localhost systemd-udevd[240]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Jun 17 06:39:18 localhost systemd[1]: Started Rule-based Manager for Device Events and Files.
+Jun 17 06:39:18 localhost systemd[1]: Finished Flush Journal to Persistent Storage.
+Jun 17 06:39:18 localhost systemd[1]: Starting Create Volatile Files and Directories...
+Jun 17 06:39:18 localhost systemd[1]: Finished Create Volatile Files and Directories.
+Jun 17 06:39:18 localhost systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jun 17 06:39:18 localhost systemd[1]: Finished Load AppArmor profiles.
+Jun 17 06:39:18 localhost systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+Jun 17 06:39:18 localhost systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Jun 17 06:39:18 localhost systemd-udevd[248]: Using default interface naming scheme 'v247'.
+Jun 17 06:39:18 localhost systemd[1]: Found device /dev/ttyS0.
+Jun 17 06:39:18 localhost haveged[273]: haveged: command socket is listening at fd 3
+Jun 17 06:39:18 localhost systemd[1]: Found device Virtio network device.
+Jun 17 06:39:18 localhost systemd[1]: Started ifup for eth0.
+Jun 17 06:39:18 localhost systemd[1]: Found device QEMU_HARDDISK.
+Jun 17 06:39:18 localhost systemd[1]: Activating swap /dev/sdb...
+Jun 17 06:39:18 localhost systemd[1]: Activated swap /dev/sdb.
+Jun 17 06:39:18 localhost haveged[273]: haveged: ver: 1.9.14; arch: x86; vend: ; build: (gcc 10.2.1 ITV); collect: 128K
+Jun 17 06:39:18 localhost haveged[273]: haveged: cpu: (VC); data: 64K (V); inst: 64K (V); idx: 39/40; sz: 54019/54019
+Jun 17 06:39:18 localhost haveged[273]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00316
+Jun 17 06:39:18 localhost haveged[273]: haveged: fills: 0, generated: 0
+Jun 17 06:39:18 localhost systemd[1]: Reached target Swap.
+Jun 17 06:39:18 localhost systemd[1]: Reached target System Initialization.
+Jun 17 06:39:18 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jun 17 06:39:18 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Sockets.
+Jun 17 06:39:18 localhost systemd[1]: Reached target Basic System.
+Jun 17 06:39:18 localhost systemd[1]: Started Regular background program processing daemon.
+Jun 17 06:39:18 localhost systemd[1]: Started D-Bus System Message Bus.
+Jun 17 06:39:18 localhost systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Jun 17 06:39:18 localhost systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jun 17 06:39:18 localhost systemd[1]: Starting System Logging Service...
+Jun 17 06:39:18 localhost systemd[1]: Starting Resets System Activity Logs...
+Jun 17 06:39:18 localhost systemd[1]: Starting User Login Management...
+Jun 17 06:39:18 localhost systemd[1]: Finished Resets System Activity Logs.
+Jun 17 06:39:18 localhost systemd[1]: Started System Logging Service.
+Jun 17 06:39:19 localhost sh[411]: eth0=eth0
+Jun 17 06:39:19 localhost systemd[1]: Started User Login Management.
+Jun 17 06:39:19 localhost systemd[1]: e2scrub_reap.service: Succeeded.
+Jun 17 06:39:19 localhost systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Jun 17 06:39:19 localhost systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Jun 17 06:39:19 localhost systemd[1]: Starting Raise network interfaces...
+Jun 17 06:39:19 localhost systemd[1]: Finished Raise network interfaces.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Network.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Network is Online.
+Jun 17 06:39:19 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 06:39:19 localhost systemd[1]: Starting chrony, an NTP client/server...
+Jun 17 06:39:19 localhost systemd[1]: Starting MySQL Community Server...
+Jun 17 06:39:19 localhost systemd[1]: Starting OpenBSD Secure Shell server...
+Jun 17 06:39:19 localhost systemd[1]: Starting Permit User Sessions...
+Jun 17 06:39:19 localhost systemd[1]: Finished Permit User Sessions.
+Jun 17 06:39:19 localhost systemd[1]: Started Getty on tty1.
+Jun 17 06:39:19 localhost systemd[1]: Started Serial Getty on ttyS0.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Login Prompts.
+Jun 17 06:39:19 localhost chronyd[518]: chronyd version 4.0 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+Jun 17 06:39:19 localhost systemd[1]: Started OpenBSD Secure Shell server.
+Jun 17 06:39:19 localhost chronyd[518]: Frequency -12.462 +/- 0.090 ppm read from /var/lib/chrony/chrony.drift
+Jun 17 06:39:19 localhost chronyd[518]: Using right/UTC timezone to obtain leap second data
+Jun 17 06:39:19 localhost chronyd[518]: Loaded seccomp filter
+Jun 17 06:39:19 localhost systemd[1]: Started chrony, an NTP client/server.
+Jun 17 06:39:19 localhost systemd[1]: Reached target System Time Synchronized.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily apt download activities.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 17 06:39:19 localhost systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Jun 17 06:39:19 localhost systemd[1]: Started Discard unused blocks once a week.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily rotation of log files.
+Jun 17 06:39:19 localhost systemd[1]: Started Daily man-db regeneration.
+Jun 17 06:39:19 localhost systemd[1]: Started Run system activity accounting tool every 10 minutes.
+Jun 17 06:39:19 localhost systemd[1]: Started Generate summary of yesterday's process accounting.
+Jun 17 06:39:19 localhost systemd[1]: Reached target Timers.
+Jun 17 06:39:19 localhost apachectl[485]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 06:39:19 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 06:39:22 localhost systemd[1]: Started MySQL Community Server.
+Jun 17 06:39:22 localhost systemd[1]: Reached target Multi-User System.
+Jun 17 06:39:22 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jun 17 06:39:22 localhost systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Jun 17 06:39:22 localhost systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Jun 17 06:39:22 localhost systemd[1]: Startup finished in 2.749s (kernel) + 4.925s (userspace) = 7.674s.
+Jun 17 06:39:26 localhost chronyd[518]: Selected source 162.159.200.1 (2.debian.pool.ntp.org)
+Jun 17 06:39:26 localhost chronyd[518]: System clock wrong by 1.172392 seconds
+Jun 17 06:39:26 localhost chronyd[518]: System clock was stepped by 1.172392 seconds
+Jun 17 06:39:26 localhost chronyd[518]: System clock TAI offset set to 37 seconds
+Jun 17 06:40:09 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:40:09 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:40:09 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:40:09 localhost systemd[1]: Created slice User Slice of UID 0.
+Jun 17 06:40:09 localhost systemd[1]: Starting User Runtime Directory /run/user/0...
+Jun 17 06:40:09 localhost systemd[1]: Finished User Runtime Directory /run/user/0.
+Jun 17 06:40:09 localhost systemd[1]: Starting User Manager for UID 0...
+Jun 17 06:40:09 localhost systemd[630]: Queued start job for default target Main User Target.
+Jun 17 06:40:09 localhost systemd[630]: Created slice User Application Slice.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Paths.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Timers.
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG network certificate management daemon.
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun 17 06:40:09 localhost systemd[630]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Sockets.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Basic System.
+Jun 17 06:40:09 localhost systemd[630]: Reached target Main User Target.
+Jun 17 06:40:09 localhost systemd[630]: Startup finished in 203ms.
+Jun 17 06:40:09 localhost systemd[1]: Started User Manager for UID 0.
+Jun 17 06:40:09 localhost systemd[1]: Started Session 1 of user root.
+Jun 17 06:48:30 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun 17 06:48:30 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jun 17 06:48:30 localhost systemd[1]: Finished Daily apt upgrade and clean activities.
+Jun 17 06:50:30 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 06:50:30 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 06:50:30 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 06:54:18 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 17 06:54:18 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jun 17 06:54:18 localhost systemd[1]: Finished Cleanup of Temporary Directories.
+Jun 17 07:00:30 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:00:30 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:00:30 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 07:02:55 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:02:55 localhost apachectl[805]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:02:55 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:02:55 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:02:55 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:02:55 localhost apachectl[811]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:02:55 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:02 localhost systemd[1]: Started Clean PHP session files every 30 mins.
+Jun 17 07:06:02 localhost systemd[1]: Reloading.
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:08 localhost libapache2-mod-php7.4: apache2_switch_mpm Switch to prefork
+Jun 17 07:06:08 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:08 localhost apachectl[7404]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:18 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:18 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7410]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:06:18 localhost libapache2-mod-php7.4: apache2_invoke: Enable module php7.4
+Jun 17 07:06:18 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7445]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:18 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:18 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:18 localhost apachectl[7451]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:18 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:06:47 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:06:47 localhost apachectl[7572]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:47 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:06:47 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:06:47 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:06:47 localhost apachectl[7578]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:06:47 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:46 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:07:46 localhost apachectl[8355]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:07:46 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:07:46 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:07:46 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:07:46 localhost apachectl[8361]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:07:46 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:09:30 localhost systemd[1]: Starting Clean php session files...
+Jun 17 07:09:30 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jun 17 07:09:30 localhost systemd[1]: Finished Clean php session files.
+Jun 17 07:10:06 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:10:06 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:10:06 localhost systemd[1]: Finished system activity accounting tool.
+Jun 17 07:11:37 localhost systemd[1]: Stopping The Apache HTTP Server...
+Jun 17 07:11:37 localhost apachectl[8481]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:11:37 localhost systemd[1]: apache2.service: Succeeded.
+Jun 17 07:11:37 localhost systemd[1]: Stopped The Apache HTTP Server.
+Jun 17 07:11:37 localhost systemd[1]: apache2.service: Consumed 3.091s CPU time.
+Jun 17 07:11:37 localhost systemd[1]: Starting The Apache HTTP Server...
+Jun 17 07:11:37 localhost apachectl[8487]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Jun 17 07:11:37 localhost systemd[1]: Started The Apache HTTP Server.
+Jun 17 07:20:12 localhost systemd[1]: Starting system activity accounting tool...
+Jun 17 07:20:12 localhost systemd[1]: sysstat-collect.service: Succeeded.
+Jun 17 07:20:12 localhost systemd[1]: Finished system activity accounting tool.

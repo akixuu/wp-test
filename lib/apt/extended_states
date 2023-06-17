@@ -1,0 +1,804 @@
+Package: libssh2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libperl5.32
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwrap0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-blinker
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcurl4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: initramfs-tools-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdbm-compat4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnghttp2-14
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcurl3-gnutls
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssh-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xkb-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: util-linux-locales
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfuse2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsensors-config
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagic-mgc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kbd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-cffi-backend
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-5.10.0-23-amd64
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpam-systemd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: busybox
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpdec3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-lib2to3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ucf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-modules
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libexpat1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-pc-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxmuu1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libefivar1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apparmor
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-reportbug
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debianbts
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfido2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmagic1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librtmp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ibritish
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhavege2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfreetype6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: pci.ids
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxau6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: emacsen-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: file
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-requests
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpipeline1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-importlib-metadata
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iamerican
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-httplib2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbus-1-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-urllib3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: runit-helper
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsasl2-modules-db
+Architecture: amd64
+Auto-Installed: 1
+
+Package: firmware-linux-free
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libeatmydata1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xz-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-jsonpatch
+Architecture: amd64
+Auto-Installed: 1
+
+Package: cloud-guest-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python-apt-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-more-itertools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap-2.4-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wamerican
+Architecture: amd64
+Auto-Installed: 1
+
+Package: console-setup-linux
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libyaml-0-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpng16-16
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pycurl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gettext-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmaxminddb0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.9-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: publicsuffix
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-attr
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pkg-resources
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gdisk
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-jsonschema
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-oauthlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: powermgmt-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: klibc-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libuchardet0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libefiboot1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libprotobuf-c1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xauth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcbor0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dictionaries-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: media-types
+Architecture: amd64
+Auto-Installed: 1
+
+Package: net-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libklibc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-json-pointer
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bind9-dnsutils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ienglish-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-jinja2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ispell
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-apt
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-certifi
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsqlite3-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-markupsafe
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-jwt
+Architecture: amd64
+Auto-Installed: 1
+
+Package: distro-info-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pysimplesoap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-six
+Architecture: amd64
+Auto-Installed: 1
+
+Package: eatmydata
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3-stdlib
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-yaml
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssh-sftp-server
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libc-l10n
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbrotli1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bind9-libs
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsensors5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblmdb0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-distutils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxext6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: initramfs-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-idna
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-chardet
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-configobj
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-setuptools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpci3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: perl-modules-5.32
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-cryptography
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpython3.9-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pyrsistent
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.9
+Architecture: amd64
+Auto-Installed: 1
+
+Package: groff-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ncurses-term
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libicu67
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfstrm0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgdbm6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libuv1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpsl5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bsdextrautils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-zipp
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxdmcp6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iso-codes
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.9-minimal
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-debian
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ssl-cert
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblua5.3-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bzip2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mailcap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mime-support
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpg
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gnupg
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpg-wks-server
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpg-agent
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libassuan0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnpth0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: pinentry-curses
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpgsm
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dirmngr
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libksba8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gnupg-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gnupg-l10n
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpg-wks-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gpgconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-community-client-plugins
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaio1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-community-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-community-client-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnuma1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: psmisc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-community-server
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mecab-ipadic-utf8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-community-server-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mecab-ipadic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmecab2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mecab-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4-readline
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4-opcache
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapache2-mod-php7.4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4-cli
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4-json
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsodium23
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php7.4-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: patch
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git-man
+Architecture: amd64
+Auto-Installed: 1
+

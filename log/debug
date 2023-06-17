@@ -1,0 +1,188 @@
+Jun 17 05:51:01 localhost kernel: [    0.001046] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 17 05:51:01 localhost kernel: [    0.001049] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 17 05:51:01 localhost kernel: [    0.001085] MTRR default type: write-back
+Jun 17 05:51:01 localhost kernel: [    0.001086] MTRR fixed ranges enabled:
+Jun 17 05:51:01 localhost kernel: [    0.001087]   00000-9FFFF write-back
+Jun 17 05:51:01 localhost kernel: [    0.001088]   A0000-BFFFF uncachable
+Jun 17 05:51:01 localhost kernel: [    0.001088]   C0000-FFFFF write-protect
+Jun 17 05:51:01 localhost kernel: [    0.001089] MTRR variable ranges enabled:
+Jun 17 05:51:01 localhost kernel: [    0.001090]   0 base 0000C0000000 mask FFFFC0000000 uncachable
+Jun 17 05:51:01 localhost kernel: [    0.001091]   1 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001092]   2 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001092]   3 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001093]   4 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001093]   5 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001094]   6 disabled
+Jun 17 05:51:01 localhost kernel: [    0.001094]   7 disabled
+Jun 17 05:51:01 localhost kernel: [    0.004281] ACPI: Local APIC address 0xfee00000
+Jun 17 05:51:01 localhost kernel: [    0.010669] On node 0 totalpages: 1048440
+Jun 17 05:51:01 localhost kernel: [    0.010670]   DMA zone: 64 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010671]   DMA zone: 21 pages reserved
+Jun 17 05:51:01 localhost kernel: [    0.010672]   DMA zone: 3998 pages, LIFO batch:0
+Jun 17 05:51:01 localhost kernel: [    0.010673]   DMA32 zone: 8128 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010673]   DMA32 zone: 520154 pages, LIFO batch:63
+Jun 17 05:51:01 localhost kernel: [    0.010674]   Normal zone: 8192 pages used for memmap
+Jun 17 05:51:01 localhost kernel: [    0.010675]   Normal zone: 524288 pages, LIFO batch:63
+Jun 17 05:51:01 localhost kernel: [    0.113096] ACPI: Local APIC address 0xfee00000
+Jun 17 05:51:01 localhost kernel: [    0.113143] ACPI: IRQ0 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113143] ACPI: IRQ5 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113144] ACPI: IRQ9 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113145] ACPI: IRQ10 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.113145] ACPI: IRQ11 used by override.
+Jun 17 05:51:01 localhost kernel: [    0.122916] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Jun 17 05:51:01 localhost kernel: [    0.122918] pcpu-alloc: [0] 0 1 
+Jun 17 05:51:01 localhost kernel: [    0.740663] PCI: pci_cache_line_size set to 64 bytes
+Jun 17 05:51:01 localhost kernel: [    0.740793] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 17 05:51:01 localhost kernel: [    0.740797] e820: reserve RAM buffer [mem 0x7ffda000-0x7fffffff]
+Jun 17 05:51:01 localhost kernel: [    0.773263] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773278] pnp 00:01: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773291] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jun 17 05:51:01 localhost kernel: [    0.773302] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 17 05:51:01 localhost kernel: [    0.774194] system 00:04: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jun 17 05:51:01 localhost kernel: [    1.617783]   with arguments:
+Jun 17 05:51:01 localhost kernel: [    1.617784]     /init
+Jun 17 05:51:01 localhost kernel: [    1.617784]   with environment:
+Jun 17 05:51:01 localhost kernel: [    1.617785]     HOME=/
+Jun 17 05:51:01 localhost kernel: [    1.617786]     TERM=linux
+Jun 17 05:51:01 localhost kernel: [    1.617786]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64
+Jun 17 05:51:01 localhost kernel: [    1.737826] libata version 3.00 loaded.
+Jun 17 05:51:01 localhost kernel: [    1.741471] ahci 0000:00:1f.2: version 3.0
+Jun 17 05:51:01 localhost kernel: [    2.099349] sd 7:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Jun 17 05:51:01 localhost kernel: [    2.100006] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Jun 17 06:39:18 localhost kernel: [    0.001331] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jun 17 06:39:18 localhost kernel: [    0.001333] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jun 17 06:39:18 localhost kernel: [    0.001369] MTRR default type: write-back
+Jun 17 06:39:18 localhost kernel: [    0.001370] MTRR fixed ranges enabled:
+Jun 17 06:39:18 localhost kernel: [    0.001371]   00000-9FFFF write-back
+Jun 17 06:39:18 localhost kernel: [    0.001372]   A0000-BFFFF uncachable
+Jun 17 06:39:18 localhost kernel: [    0.001373]   C0000-FFFFF write-protect
+Jun 17 06:39:18 localhost kernel: [    0.001373] MTRR variable ranges enabled:
+Jun 17 06:39:18 localhost kernel: [    0.001375]   0 base 0000C0000000 mask FFFFC0000000 uncachable
+Jun 17 06:39:18 localhost kernel: [    0.001375]   1 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001376]   2 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001376]   3 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001377]   4 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001377]   5 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001378]   6 disabled
+Jun 17 06:39:18 localhost kernel: [    0.001378]   7 disabled
+Jun 17 06:39:18 localhost kernel: [    0.010697] ACPI: Local APIC address 0xfee00000
+Jun 17 06:39:18 localhost kernel: [    0.011334] On node 0 totalpages: 1048440
+Jun 17 06:39:18 localhost kernel: [    0.011335]   DMA zone: 64 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011336]   DMA zone: 21 pages reserved
+Jun 17 06:39:18 localhost kernel: [    0.011337]   DMA zone: 3998 pages, LIFO batch:0
+Jun 17 06:39:18 localhost kernel: [    0.011337]   DMA32 zone: 8128 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011338]   DMA32 zone: 520154 pages, LIFO batch:63
+Jun 17 06:39:18 localhost kernel: [    0.011339]   Normal zone: 8192 pages used for memmap
+Jun 17 06:39:18 localhost kernel: [    0.011339]   Normal zone: 524288 pages, LIFO batch:63
+Jun 17 06:39:18 localhost kernel: [    0.154370] ACPI: Local APIC address 0xfee00000
+Jun 17 06:39:18 localhost kernel: [    0.154420] ACPI: IRQ0 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154420] ACPI: IRQ5 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154421] ACPI: IRQ9 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154422] ACPI: IRQ10 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.154422] ACPI: IRQ11 used by override.
+Jun 17 06:39:18 localhost kernel: [    0.163953] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+Jun 17 06:39:18 localhost kernel: [    0.163955] pcpu-alloc: [0] 0 1 
+Jun 17 06:39:18 localhost kernel: [    0.793509] PCI: pci_cache_line_size set to 64 bytes
+Jun 17 06:39:18 localhost kernel: [    0.793639] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jun 17 06:39:18 localhost kernel: [    0.793642] e820: reserve RAM buffer [mem 0x7ffda000-0x7fffffff]
+Jun 17 06:39:18 localhost kernel: [    0.834375] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834391] pnp 00:01: Plug and Play ACPI device, IDs PNP0f13 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834404] pnp 00:02: Plug and Play ACPI device, IDs PNP0501 (active)
+Jun 17 06:39:18 localhost kernel: [    0.834416] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jun 17 06:39:18 localhost kernel: [    0.835312] system 00:04: Plug and Play ACPI device, IDs PNP0c01 (active)
+Jun 17 06:39:18 localhost kernel: [    1.738482]   with arguments:
+Jun 17 06:39:18 localhost kernel: [    1.738483]     /init
+Jun 17 06:39:18 localhost kernel: [    1.738483]   with environment:
+Jun 17 06:39:18 localhost kernel: [    1.738484]     HOME=/
+Jun 17 06:39:18 localhost kernel: [    1.738484]     TERM=linux
+Jun 17 06:39:18 localhost kernel: [    1.738485]     BOOT_IMAGE=/boot/vmlinuz-5.10.0-23-amd64
+Jun 17 06:39:18 localhost kernel: [    1.909619] libata version 3.00 loaded.
+Jun 17 06:39:18 localhost kernel: [    1.914736] ahci 0000:00:1f.2: version 3.0
+Jun 17 06:39:18 localhost kernel: [    2.274306] sd 7:0:1:2: [sdb] Mode Sense: 63 00 00 08
+Jun 17 06:39:18 localhost kernel: [    2.274904] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:03 localhost php7.4-common: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:04 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:05 localhost php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-readline: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:06 localhost php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost php7.4-json: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke json: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost php7.4-cli: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:06:07 localhost libapache2-mod-php7.4: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:38 localhost php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 cli sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 apache2 sapi
+Jun 17 07:07:39 localhost php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 cli sapi
